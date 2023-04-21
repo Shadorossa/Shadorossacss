@@ -1,21 +1,903 @@
-/* Shadorossa.css - Shadorossa v1.0 */
+/* Persona 5 Royal.css - Shadorossa v1.0 */
+
+/* Structure: Imported animations and fonts, base, 
+
+Credits to the original structure: @SaikoKurami */
+
+/* - Fonts & Animations - */
+
+@Import url("https://cdn.jsdelivr.net/gh/Shadorossa/CSS5R/P5Font.css"); @Import url("https://cdn.jsdelivr.net/gh/Shadorossa/CSS5R/P5Font2.css"); @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 
 
+/*--------------------------------------------------------- Base ---------------------------------------------------------*/
+
+:root, 
+body, 
+.site-theme-dark, 
+.site-theme-contrast {
+    --color-background: 11,22,34 !important;
+    --color-foreground: 28,28,29 !important;
+    --color-foreground-grey: 28,28,28 !important;
+    --color-foreground-grey-dark: 10,5,10 !important;
+    --color-foreground-blue: 15,22,31 !important;
+    --color-foreground-blue-dark: 6,12,19 !important;
+    --color-text: 159,173,189 !important;
+    --color-text-light: 114,138,161 !important;
+    --color-text-lighter: 133,150,165 !important;
+    --color-shadow-blue: 0,5,15 !important;
+    --color-background-1200: 251,251,251!important;
+    --color-background-1100: 240,243,246 !important;
+    --color-background-1000: 221,230,238 !important;
+    --color-background-900: 201,215,227!important;
+    --color-background-800: 173,192,210 !important;
+    --color-background-700: 139,160,178 !important;
+    --color-background-600: 116,136,153 !important;
+    --color-background-500: 100,115,128 !important;
+    --color-background-400: 81,97,112 !important;
+    --color-background-300: 30,42,56 !important;
+    --color-background-100: 21,31,46 !important;
+    --color-background-200: 11,22,34 !important;
+    --color-text-bright: 255, 255, 255 !important;
+    --color-blue: 120, 180, 255 !important;
+    --color-foreground-alt: 18, 23, 29 !important;
+    --color-nav-hoh: rgb(20, 25, 31) !important;
+    --color-blue-100: 247, 250, 252 !important;
+    --color-blue-200: 236, 246, 254 !important;
+    --color-blue-300: 201, 232, 255 !important;
+    --color-blue-400: 143, 215, 255 !important;
+    --color-blue-500: 111, 200, 255 !important;
+    --color-blue-600: 61, 180, 242 !important;
+    --color-blue-700: 8, 143, 214 !important;
+    --color-blue-800: 12, 101, 166 !important;
+    --color-blue-900: 11, 70, 113 !important;
+    --color-blue-1000: 16, 61, 85 !important;
+    --color-gray-1200: 251,251,251 !important;
+    --color-gray-1100: 240,243,246 !important;
+    --color-gray-1000: 221,230,238 !important;
+    --color-gray-900: 201,215,227 !important;
+    --color-gray-800: 173,192,210 !important;
+    --color-gray-700: 139,160,178 !important;
+    --color-gray-600: 116,136,153 !important;
+    --color-gray-500: 100,115,128 !important;
+    --color-gray-400: 81,97,112 !important;
+    --color-gray-300: 30,42,56 !important;
+    --color-gray-100: 21,31,46 !important;
+    --color-gray-200: 11,22,34 !important;
+}
+
+:root {
+    /*Persona5 color palette*/
+    --Persona5-red: 209, 0, 3;
+    --Persona5-gold: 249, 189, 4;
+    --Persona5-black: 0, 0, 0;
+    --Persona5-white: 255,255,255;
+
+    /* - Persona 5 Royal assets - */
+    --P5-Wallpaper: url(https://files.catbox.moe/fkpnwt.png); --P5-cursor: url(https://files.catbox.moe/4zfy4j.png); --Joker-footer: url(https://thumbs.gfycat.com/FaroffVagueDiplodocus-max-1mb.gif);
+    --Joker-pfp1: url(https://files.catbox.moe/0dfzm3.png); --Joker-pfp2: url(https://files.catbox.moe/leizk1.png);
+    --P5-anime-icon: url(https://files.catbox.moe/d19tiw.svg); --P5-manga-icon: url(https://files.catbox.moe/drs6hx.svg);
+
+    /* - Favorite anime - (Future)*/
+    /* - Favorite manga - (Future)*/
+
+    /* - Favorite characters - */
+    --gintoki-image: url(https://i.imgur.com/HRuIQHE.png); --gintoki-gif: url(https://files.catbox.moe/eebtvl.gif);
+    --Reinhard-image: url(https://i.imgur.com/wOGVvzL.png); --Reinhard-gif: url(https://pa1.narvii.com/6255/7341928f059fac79f12fe9bf65d10854c436748a_hq.gif);
+    --Joe-image: url(https://i.pinimg.com/550x/93/71/f6/9371f646bff2d26360c8d9c42f6263cf.jpg); --Joe-gif: url(https://c.tenor.com/0__k92cmME4AAAAC/drink-thirsty.gif);
+    --Takasugi-image: url(https://s4.anilist.co/file/anilistcdn/character/large/b2948-Er1xnL05k1oU.png); --Takasugi-gif: url(https://c.tenor.com/rDF2WZXh_xYAAAAC/takasugi-shinsuke-takasugi.gif);
+    --Akechi-image: url(https://files.catbox.moe/5p50va.png); --Akechi-gif: url(http://pa1.narvii.com/6566/7c9f8ed9aa414d6fb797020c8df7afed79a8a0f2_00.gif);
+
+    /* - Character confidant - */
+    --joker-confidant: url(https://files.catbox.moe/85kyr4.png); 
+    --akechi-confidant: url(https://i.imgur.com/npSQYaJ.png);
+    --kasumi-confidant: url(https://i.imgur.com/wzTxQXF.png);
+    --makoto-confidant: url(https://i.imgur.com/LbyKNJ1.png);
+    --maruki-confidant: url(https://i.imgur.com/rhRhbYi.png);
 
 
-/*=============================================================== REMOVED ===============================================================*/
+    /* - Animations and transitions - */
+    --animation-slow: 1.5s;
+    --animation-normal: 1s;
+    --animation-fast: 0.5s;
+    --transition-Slow: 2s;
+    --transition-normal: 1s;
+    --transition-fast: 0.5s;
+    --transition-faster: 0.2s;
+    --transition-ultra-faster: 0.04s;
+}
 
-/* --- Overview > Favorite: Anime (Limit) --- */
+/*--------------------------------------------------------- Page's body ---------------------------------------------------------*/
+
+/* - Border-radius - */.activity-entry .cover, .activity-entry .wrap, .activity-entry.activity-text .wrap, .activity-feed .activity-replies .reply, .activity-message .wrap, .content.container>div>div:nth-child(1)>div:nth-child(2)>div, .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(1), .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(2), .el-input, .el-textarea, .el-textarea__inner, .embed, .favourites-wrap.anime, .favourites-wrap.characters, .favourites-wrap.staff, .favourites-wrap.studios, .hohPinned .wrap, .input, .input[data-v-93c5960c], .markdown-editor, .medialist.table .list-section, .scroller .load-more, .section>.about .content-wrap, .user-follow .follow-card, .user-social .wrap {
+    border-radius: 16px !important;
+}
+
+/* - Persona5-Font - */.overview[data-v-5c30286e] .section-header, .mod-badge-wrap.follower-badge:after, .section>.stats-wrap .stat .value, .time[data-v-04d66030], .activity-message > .wrap > .time, .activity-text > .wrap > .time, .load-more[data-v-6f203cf2], .favourites.preview .favourites-wrap.studios[data-v-ddf96a3c] {
+    Font-family: 'Persona5';
+}
+
+body {
+    cursor: var(--P5-cursor), auto;
+    overflow: overlay;
+    background: rgb(var(--color-background)) var(--P5-Wallpaper) center/100% fixed;
+    font-family: 'Persona5';
+}
+.content.container {
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 80%;
+    padding: 20px 30px;
+    border-radius: 0 0 15px 15px;
+    backdrop-filter: blur(4px) !important;
+}
+
+/* - Scroll bar - */
+::-webkit-scrollbar-thumb {
+    background: rgb(var(--Persona5-red));
+    -webkit-border-radius: 1ex;
+}
+
+/* - Ilimited bio view - */
+.about .content-wrap::-webkit-scrollbar {
+display: none !important;
+}
+
+/*--------------------------------------------------------- Header: navegation ---------------------------------------------------------*/
+
+#nav {
+    transition: none !important;
+    position: absolute;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    left: 40px;
+    top: 50.4% !important;
+    width: 35%;
+    border-radius: 0 0 70px 70px;
+}
+
+.nav .wrap {
+    display: grid;
+    grid-template-columns: 0px auto auto 0px;
+}
+
+.nav .wrap .links {
+    grid-column-start: 3;
+    margin-left: -105px;
+}
+.logo img[data-v-62eacfff]{
+    display: none;
+}
+.nav .wrap .search {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 5px;
+    background: rgb(var(--color-foreground-grey));
+    border-radius: 8px;
+    width: 50%;
+    cursor: text;
+}
+.nav .wrap .user {
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+.activity-feed .liked {
+    color: rgb(var(--Persona5-red));
+}
+
+/* - Navegation: Categories - */
+.logo[data-v-62eacfff], .user[data-v-62eacfff] {Left: -60px;}
+.links>.link:nth-of-type(3) {Display:none}
+.links>.link:nth-of-type(4) {Display:none}
+.links>.link:nth-of-type(5) {Display:none}
+
+/*--------------------------------------------------------- Banner: header ---------------------------------------------------------*/
+
+
+/* - Header: dynamic avatar - */
+.banner-content > .avatar {
+    padding: 147px 150px;
+    background: var(--Joker-pfp1);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    transition: all .5s ease-out;
+    z-index: 1;
+}
+.banner-content > .avatar:hover {
+    padding: 147px 150px;
+    background: var(--Joker-pfp2); no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    transition: all .5s ease-out;
+    z-index: 1;
+}
+.avatar[data-v-1cc2919e] {
+    border-radius: 4px 4px 0 0;
+    display: inline-block;
+    max-height: 230px;
+    width: 100%;
+}
+img {
+    vertical-align: text-top;
+}
+img {
+    border-style: none;
+}
+
+/* - Banner - */
+.banner[data-v-1cc2919e] {height: 430px;}
+
+.header-wrap 
+> div.banner 
+> div.container 
+> div 
+> img {
+    display: inline-block;
+    max-height: 230px;
+    max-width: 160px;
+    width: 100%;
+}
+
+.banner-content .name {
+    bottom: 120px;
+    font-size: 2rem;
+    padding: 9px 20px 3px 20px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.banner-content h1.name {
+    margin-bottom: -5px;
+    margin-left: -45px;
+    content: url(https://files.catbox.moe/qnq7yr.png);;
+    width: 250px;
+    filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
+}
+
+
+/* - Follow and options - */
+.header-wrap .actions .nav-btn {
+    Position: absolute;
+    Top: 370px;
+    Left: 1425px;
+}
+.dropdown[data-v-1cc2919e]{
+    Top: 60px;
+    Left: 70px
+}
+
+/* - Header navegation - */
+.header-wrap .nav-wrap {
+    bottom: 795px;
+    left: 788px;
+    position: absolute;
+    max-width: 1%;
+    margin: auto;
+    z-index: 2;
+}
+.header-wrap .nav-wrap .link:nth-child(9) {
+    content: url(https://files.catbox.moe/5kiwxg.png) !important;
+    height: 80px;
+    position: absolute;
+    bottom: -360px;
+    left: -80px;
+}
+
+.nav[data-v-1cc2919e] {
+    font-size: 0rem;
+}
+
+.header-wrap .nav-wrap .nav .link:nth-child(1) {content: url(https://files.catbox.moe/y6u92z.png);;
+    height: 80px;
+}
+
+.header-wrap .nav-wrap .nav .link:hover {
+    height: 100px;
+    Transition: var(--transition-ultra-faster);
+}
+
+.media .nav .link.router-link-exact-active.router-link-active, .user .nav .link.router-link-exact-active.router-link-active {
+  background: none !important;
+}
+
+.header-wrap .nav-wrap .link:nth-child(1) {
+    position: absolute;
+    bottom: -60px;
+    left: -10px;
+}
+.header-wrap .nav-wrap .link:nth-child(2) {
+    content: url(https://files.catbox.moe/8levoy.png);;
+    height: 80px;;
+    position: absolute;
+    bottom: -110px;
+    left: -20px;
+}
+.header-wrap .nav-wrap .link:nth-child(3) {
+    content: url(https://files.catbox.moe/pyn5n6.png);;
+    height: 80px;;position: absolute;
+    bottom: -160px;
+    left: -40px;
+}
+.header-wrap .nav-wrap .link:nth-child(4) {
+    content: url(https://files.catbox.moe/ictb9b.png);;
+    height: 80px;;position: absolute;
+    bottom: -210px;
+    left: -45px;
+}
+.header-wrap .nav-wrap .link:nth-child(5) {
+    content: url(https://files.catbox.moe/2sybzd.png);;
+    height: 80px;;position: absolute;
+    bottom: -260px;
+    left: -20px;
+}
+.header-wrap .nav-wrap .link:nth-child(6) {
+    content: url(https://files.catbox.moe/r1ptkq.png);;
+    height: 80px;;position: absolute;
+    bottom: -310px;
+    left: -30px;
+}
+.header-wrap .nav-wrap .link:nth-child(7) {
+    content: url(https://files.catbox.moe/5kiwxg.png);
+    height: 80px;
+    position: absolute;
+    bottom: -360px;
+    left: -80px;
+}
+
+.mod-badge-wrap.follower-badge {
+    background: rgb(var(--Persona5-red));
+    padding: 8px 8px 7px 8px;
+    margin-bottom: 33px;
+    margin-left: -11px;
+    font-size: 0rem;
+    border-radius: 780px;
+}
+
+.mod-badge-wrap.follower-badge:after {
+    content: url(https://files.catbox.moe/r8xnao.png) !important;
+    font-size: 1rem;
+    color: rgb(var(--color-white));
+    font-weight: lighter;
+}
+
+.header-wrap[data-v-1cc2919e]  {
+  border-bottom-width: 1.1em;
+  border-bottom-style: solid;
+  border-bottom-color: #14191f;
+  z-index: 5;
+} 
+
+/*--------------------------------------------------------- Category: overview ---------------------------------------------------------*/
+
+/* - Stats - */
+.stats-wrap {
+  transform: scale(1) !important;
+}
+
+.section>.stats-wrap .stat .value {
+    color: rgb(var(--Persona5-red));
+    font-size: 2.5rem;
+    filter: opacity(0);
+}
+
+.user .overview {
+    grid-template-columns: 480px auto!important;
+}
+.history-day {
+    border-radius: 10px !important;
+}
+
+.overview .content-wrap {
+    border-radius: 6px;
+}
+
+.favourites .favourite {
+    border-radius: 5px !important;
+    border: 2px solid rgb(var(--color-foreground));
+}
+
+.overview .favourites 
+> .favourites-wrap {
+    width: 480px;
+}
+
+/* - Activity config - */
+.list.small .entry-dropdown[data-v-04d66030]{Display: none;}
+.list.small .details[data-v-b584a8de]{position: absolute;}
+.list.small[data-v-04d66030]{grid-template-columns: 120px auto;}
+.list.small[data-v-b584a8de] {grid-template-columns: 120px auto;}
+.list.small > div > div.status > a {display: none;}
+.list .title[data-v-04d66030]{display: none;}
+.time .action.active {Display: none;}
+.activity-entry > .wrap > .time:hover {background: none;}
+.activity-entry .like-wrap .users {display: none;}
+.activity-message .wrap > .actions, .activity-text .wrap > .actions {position: relative;}
+
+@media (min-width: 1540px) {
+.activity-feed .activity-message[data-v-eb51fd0e], .activity-feed .activity-text[data-v-eb51fd0e]{
+    grid-column-start: unset;
+    grid-column-end: unset;
+    }
+}
+.activity-feed[data-v-eb51fd0e] {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 80px;
+    grid-template-columns: repeat(5, 1fr);
+}
+.actions[data-v-04d66030], .details .status  {
+    position: absolute;
+    opacity: 0;
+}
+.details .status {
+    top: 18px;
+    left: 10px
+}
+.list .details[data-v-04d66030] {
+    padding: 0px 0px;
+    padding-right: 0px;
+}
+
+@media (min-width: 1540px) {
+    .activity-anime_list .wrap, .activity-manga_list .wrap {
+    margin-left: 10px;
+    position: absolute;
+    }
+}
+.time[data-v-04d66030] {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 12px;
+    top: 1px;
+    right: 10px;
+    opacity: 0.9;
+    border-radius: 7px;
+}
+
+.wrap[data-v-04d66030] {
+    position: absolute;
+    overflow: hidden;
+}
+
+.text .donator-badge[data-v-04d66030]{
+    position: absolute;
+    left: 200px;
+    top: 45px;
+}
+
+.text[data-v-04d66030] {
+    overflow: scroll;
+    max-width: 140px;
+    max-height: 70px;
+    margin-top: -10px;
+}
+
+.el-dropdown {
+    top: 1px;
+}
+/* - Activity animation - */
+.details .status:hover {
+    Opacity: 1;
+    transition: var(--transition-normal)
+}
+.details .status {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    Opacity: 0;
+    transition: var(--transition-fast)
+}
+
+.details .status .Completed {}
+.actions:hover[data-v-04d66030] {
+    opacity: 1;
+    transition: var(--animation-normal)
+}
+.actions[data-v-04d66030] {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    bottom: 2px;
+    right: 8px;
+    opacity: 0;
+    transition: var(--transition-fast);
+    color: red;
+}
+.activity-entry .wrap:hover .list.small .cover {filter: blur(8px)}
+
+/* - Joker pfp fix - */
+div.page-content > div > div.content.container > div > div:nth-child(2) > div.activity-feed-wrap > div.activity-feed > div.activity-entry.activity-text > div.wrap > div.text > div.header > a.avatar.router-link-exact-active.router-link-active {
+    background: none;
+    content: url(https://files.catbox.moe/82z26q.png);
+}
+
+/* - Status date fix - */
+.activity-message > .wrap > .time, .activity-text > .wrap > .time {
+
+    left: 16px;
+    top: 52px;
+    display: flex;
+    font-size: 9px;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    opacity: 1;
+}
+
+.text > div.header > a.name {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 54px;
+}
+
+/* - Load more - */
+.load-more[data-v-6f203cf2] {
+    position: relative;
+    bottom: -60px;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(https://i.pinimg.com/originals/4a/ea/f2/4aeaf254f6efa503db1e8d3e9c31cabf.gif) center/100%;
+;;;;/* font-family: 'Persona5'; */;;;;
+}
+
+/*--------------------------------------------------------- Stats ---------------------------------------------------------*/
+
+.content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(1) {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(https://78.media.tumblr.com/79942a2855eb6338bc214c5602b6718e/tumblr_p77qxeT1pv1w46s3lo1_540.gif) center/102%;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(var(--color-foreground));
+    ;margin-right: 5px !important;
+    transition: var(--transition-normal);
+}
+
+.content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(2) {
+    background-color: rgb(var(--color-foreground));
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(https://steamuserimages-a.akamaihd.net/ugc/1248008787334023980/95B051D79B393E25CE67144E3805E6ED95B015C5/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false) center/102%;
+    background-repeat: no-repeat;
+    background-size: fit;
+    ;;border: 2px solid rgb(var(--color-foreground));;;
+    margin-left: 5px !important;
+    transition: var(--transition-normal);
+    }
+
+.stats-wrap[data-v-815ccddc] {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.stats-wrap > div:nth-child(1) > div.footer {
+    Display: none;
+}
+
+.stats-wrap>div:nth-child(1):hover div.stats-wrap>div:nth-child(1)>div.label, .stats-wrap>div:nth-child(1):hover div.stats-wrap>div:nth-child(1)>div.value, .stats-wrap>div:nth-child(1):hover div.stats-wrap>div:nth-child(2)>div.label, .stats-wrap>div:nth-child(1):hover div.stats-wrap>div:nth-child(2)>div.value, .stats-wrap>div:nth-child(2):hover div.stats-wrap>div:nth-child(1)>div.label, .stats-wrap>div:nth-child(2):hover div.stats-wrap>div:nth-child(1)>div.value, .stats-wrap>div:nth-child(2):hover div.stats-wrap>div:nth-child(2)>div.label, .stats-wrap>div:nth-child(2):hover div.stats-wrap>div:nth-child(2)>div.value {
+    filter: opacity(1);
+    transition: var(--transition-normal);
+}
+
+.footer[data-v-815ccddc] {
+    Display: none;
+}
+    
+.stats-wrap>div:nth-child(1)>div.stats-wrap>div:nth-child(1)>div.label, .stats-wrap>div:nth-child(1)>div.stats-wrap>div:nth-child(2)>div.label {
+    color: rgb(var(--Persona5-white));
+    font-weight: 700;
+    font-size: 1.1rem;
+    filter: opacity(0);
+    transition: var(--transition-normal);
+}
+
+.stats-wrap>div:nth-child(2)>div.stats-wrap>div:nth-child(1)>div.label, .stats-wrap>div:nth-child(2)>div.stats-wrap>div:nth-child(2)>div.label {
+    filter: opacity(0);
+    transition: var(--transition-normal);
+}
+
+.section>.stats-wrap .stat .value {
+    transition: var(--transition-normal);
+}
+
+.stat .value[data-v-815ccddc] {
+    color: rgb(var(--Persona5-red));
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+.stat .label[data-v-815ccddc] {
+    color: rgb(var(--P5-white));
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+    
+.progress[data-v-815ccddc] {
+    background: rgba(var(--color-foreground-grey-dark),0.6);
+    height: 11px;
+    padding: 0 16.5%;
+}
+
+.list-stats {
+    font-weight: 600;
+    overflow: hidden;
+    padding: 0!important;
+}
+
+.stats-wrap > div:nth-child(1) > div.footer {
+border-radius: 0 0 0 4px;
+}
+
+.list-stats>.stats-wrap .stat:nth-child(3) {
+    Display: none;
+}
+
+.section > .stats-wrap > .list-stats:nth-child(2) .stat:nth-child(2) .value, .section > .stats-wrap > .list-stats:nth-child(1) .stat:nth-child(2) .value {
+    display: grid;
+    color: rgb(var(--Persona5-red));
+}
+
+.section > .stats-wrap > .list-stats:nth-child(1) .stat:nth-child(1) .value:before {
+    content: '';
+    -webkit-mask: var(--P5-anime-icon) no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -10%;
+    background-color: rgba(var(--Persona5-red));
+}
+
+.section > .stats-wrap > .list-stats:nth-child(2) .stat:nth-child(1) .value:before {
+    content: '';
+    -webkit-mask: var(--P5-manga-icon) no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -10%;
+    background-color: rgba(var(--Persona5-red));
+}
+
+/*Anime list and manga list cover bugfixed*/
+
+.lists > div > div > div.list-entries > div > div.cover {
+    max-height: 250px;
+}
+    
+/* favourite enlarge while hover*/
+.favourite[data-v-0317d914] {
+   transition: var(--transition-faster);
+   border-radius: 20%;
+   position: static;
+   overflow: visible;
+}
+
+/* - Bio Favourites - */
+.favourite:hover {
+   transform: scale(1.4);
+   position: static;
+   overflow: visible;
+   border: 2px solid rgb(var(--color-foreground));
+}
+
+.favourites.preview .favourites-wrap .favourite, 
+.favourites.preview .favourites-wrap>div {
+   overflow: visible;
+}
+
+.favourites-wrap[data-v-ddf96a3c] {
+   overflow: visible;
+}
+
+/*--------------------------------------------------------- Overview > Favorite: character (Gid + image + confident) ---------------------------------------------------------*/
+
+/*Gintoki + Confidant*/
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) { background-image: var(--gintoki-image) !important; transition: var(--transition-fast);}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1):hover { background-image: var(--gintoki-gif) !important; transition: var(--transition-normal);}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(3):after {content: var(--joker-confidant); position: absolute; overflow: overlay;transform: translate(42px, -36px);}
+
+/*Reinhard + Confidant*/
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(2) { background-image: var(--Reinhard-image) !important; transition: var(--transition-fast);}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(2):hover { background-image: var(--Reinhard-gif) !important; transition: var(--transition-normal);}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(2):after {content: var(--kasumi-confidant); position: absolute; overflow: overlay;transform: translate(42px, -40px);}
+
+/*Joe + Confidant*/
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(3) { background-image: var(--Joe-image) !important; transition: var(--transition-fast); }
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(3):hover { background-image: var(--Joe-gif) !important; transition: var(--transition-normal);}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1):after {content: var(--akechi-confidant); position: absolute; overflow: overlay;transform: translate(42px, -40px);}
+
+/*Akechi + Confidant*/
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(4) { background-image: var(--Akechi-image) !important; transition: var(--transition-fast);}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(4):hover { background-image: var(--Akechi-gif) !important; transition: var(--transition-normal);}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(4):after {content: var(--maruki-confidant); position: absolute; overflow: overlay;transform: translate(42px, -40px);}
+
+/*Takasugi + Confidant*/
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(5) { background-image: var(--Takasugi-image) !important; transition: var(--transition-fast);}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(5):hover { background-image: var(--Takasugi-gif) !important; transition: var(--transition-normal);}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(5):after {content: var(--makoto-confidant); position: absolute; overflow: overlay;transform: translate(42px, -40px);}
+
+/*--------------------------------------------------------- Animation studio ---------------------------------------------------------*/
+
+.overview .favourite.studio {
+    min-height: 45px !important;
+    max-height: 45px !important;
+}
+
+.page-content 
+> div
+> div.content.container
+> div
+> div:nth-child(1) 
+> div:nth-child(8) 
+> div {
+    grid-template-columns: repeat(auto-fill,85px);
+    grid-template-rows: repeat(auto-fill,40px);
+}
+
+body .overview .favourite.studio, .site-theme-contrast .overview .favourite.studio, .site-theme-dark .overview .favourite.studio {
+    background-color: rgb(var(--color-foreground))!important;
+    border: 1px !important;
+    border-radius: 5.6px !important;
+}
+.overview .favourite.studio {
+    align-items: center;
+    font-size: 1.1rem;
+}
+.overview .favourite.studio::after {
+    display: none !important;
+}
+
+/*--------------------------------------------------------- Removed ---------------------------------------------------------*/
+
+
+.activity-manga_list 
+> div
+> div
+> div
+> div 
+> .title, .hohPinned .list .title[href^="/manga/"] {
+    color: rgb(var(--color-blue)) !important;
+}
+
+.hohDownload {
+    display: none;
+}
+
+.hohScore {
+    display: none;
+}
+
+.hohRewatchSuffix {
+    display: none;
+}
+
+.page-content 
+> div 
+> div.content.container 
+> div > div:nth-child(2) 
+> div.activity-feed-wrap 
+> div:nth-child(2) 
+> div 
+> div.text {
+    display: none;
+}
+
+/*link under header-wrap*/
+.header-wrap .nav-wrap .nav .link:nth-child(7), .header-wrap .nav-wrap .nav .link:nth-child(8) {
+    width: 0;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+
+.circle, .emoji-spinner{
+    display: none !important;
+}
+
+.medialist.cards .entry-card .title {
+    width: 150px ;
+    white-space: nowrap !important;
+    overflow: hidden;
+    white-space: nowrap !important;
+    text-overflow: ellipsis ;
+    transition: 1s;
+}
+
+.medialist.cards .entry-card .title:hover {
+    white-space: normal !important;
+    transition: var(--transition-normal);
+}
+
+/*--------------------------------------------------------- Overview > Favorite: Anime (Limit) ---------------------------------------------------------*/
 
 .content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(n+6) { 
     Display: none;}
 
-/* --- Overview > Favorite: Manga (Limit) --- */
+/*--------------------------------------------------------- Overview > Favorite: Manga (Limit) ---------------------------------------------------------*/
 
 .content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(n+6) { 
     Display: none;}
 
-/* --- Overview > Favorite: Character (Limit) --- */
+/*--------------------------------------------------------- Overview > Favorite: Character (Limit) ---------------------------------------------------------*/
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(n+6) { 
     Display: none;}
+
+/*--------------------------------------------------------- Overview/Favorite > Staff: profile image ---------------------------------------------------------*/
+
+.favourites-wrap.staff > a:after {
+    transform: translate(22px, 70px);
+    display: flex;
+    width: 35px;
+    justify-content: center;
+    transition: opacity 0.2s ease-in-out;
+    opacity: 1;
+    padding-top: 6px;
+}
+
+.favourites-wrap.staff > a:hover:after {
+    opacity: 0 !important;
+    transition: 0.5s;
+}
+
+/* - Mangaka - */
+.favourites-wrap.staff > a:nth-child(1)::after, .favourites-wrap.staff > a:nth-child(2)::after, .favourites-wrap.staff > a:nth-child(3)::after {
+    content: url(https://files.catbox.moe/rx7pg3.png);
+}
+/* - Music group - */
+.favourites-wrap.staff > a:nth-child(4)::after, .favourites-wrap.staff > a:nth-child(5)::after {
+    content: url(https://files.catbox.moe/i15jb7.png);
+}
+
+/*--------------------------------------------------------- Anime List/Manga List: categories ---------------------------------------------------------*/
+
+.filter-group .active[data-v-170179fc] {
+    background: none;
+}
+div.filters.mobile-nav-hidden > div:nth-child(1) > span:nth-child(3) {
+    content: url(https://files.catbox.moe/p6hg6d.png);
+    height: 80px;
+    margin-top: -50px;
+}
+div.filters.mobile-nav-hidden > div:nth-child(1) > span:nth-child(7) {
+    content: url(https://files.catbox.moe/gvwrfn.png);
+    height: 80px;
+    margin-top: -20px;
+}
+div.filters.mobile-nav-hidden > div:nth-child(1) > span:nth-child(12) {
+    content: url(https://files.catbox.moe/4k5t2l.png);
+    height: 80px;
+    margin-top: -20px;
+}
+div.filters.mobile-nav-hidden > div:nth-child(1) > span:nth-child(15) {
+    content: url(https://files.catbox.moe/2cxocj.png);
+    height: 80px;
+    margin-top: -20px;
+}
+div.filters.mobile-nav-hidden > div:nth-child(1) > span:nth-child(20) {
+    content: url(https://files.catbox.moe/u53of0.png);
+    height: 80px;
+    margin-top: -20px;
+}
+
+/*--------------------------------------------------------- Favorite > Character: profile images ---------------------------------------------------------*/
+
+/*Gintoki*/div.favourites-wrap.characters > a:nth-child(1) {background-image: url(https://i.imgur.com/IYW1nUo.png) !important;}
+/*Reinhard*/div.favourites-wrap.characters > a:nth-child(2) {background-image: url(https://i.imgur.com/e0AXlHW.png) !important;}
+/*Joe*/div.favourites-wrap.characters > a:nth-child(3) {background-image: url(https://i.pinimg.com/236x/a9/8d/20/a98d20c2af0206c8cbdb9a71dd64fe90.jpg) !important;}
+/*Akechi*/div.favourites-wrap.characters > a:nth-child(4) {background-image: url(https://files.catbox.moe/8yxcyl.png)!important;}
+/*Shinsuke Takasugi*/div.favourites-wrap.characters > a:nth-child(5) {background-image: url(https://i.imgur.com/IjJOcJ6.png) !important;}
+/*Makise*/div.favourites-wrap.characters > a:nth-child(6) {background-image: url(https://i.imgur.com/Mta4Eij.png) !important;}
+/*Miles*/div.favourites-wrap.characters > a:nth-child(7) {background-image: url(https://i.imgur.com/9A8imtj.png) !important;}
+/*Jack Vessalius*/div.favourites-wrap.characters > a:nth-child(8) {background-image: url(https://i.imgur.com/647MG5y.png) !important;}
+/*Kyo Sohma*/div.favourites-wrap.characters > a:nth-child(9) {background-image: url(https://i.imgur.com/snK1glX.png) !important;}
+
+
+/*--------------------------------------------------------- Footer ---------------------------------------------------------*/
+
+#app 
+> div.wrap 
+> div {
+    background: var(--Joker-footer) no-repeat top/100% !important;
+    width: auto;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
