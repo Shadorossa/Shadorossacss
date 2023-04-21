@@ -5,19 +5,17 @@
 
 /*=============================================================== REMOVED ===============================================================*/
 
-
-
-/*--------------------------------------------------------- Overview > Favorite: Anime (Limit) ---------------------------------------------------------*/
+/* --- Overview > Favorite: Anime (Limit) --- */
 
 .content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(n+6) { 
     Display: none;}
 
-/*--------------------------------------------------------- Overview > Favorite: Manga (Limit) ---------------------------------------------------------*/
+/* --- Overview > Favorite: Manga (Limit) --- */
 
 .content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(n+6) { 
     Display: none;}
 
-/*--------------------------------------------------------- Overview > Favorite: Character (Limit) ---------------------------------------------------------*/
+/* --- Overview > Favorite: Character (Limit) --- */
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(n+6) { 
     Display: none;}
