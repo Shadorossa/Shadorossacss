@@ -7,11 +7,11 @@
 
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(n+1) {
     position: relative ;
-    margin-right: 170px;
+    margin-right: 150px;
 }
 
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(2) {
-        right: 170px
+        right: 150px
 }
 
 /*=============================================================== REMOVED ===============================================================*/
