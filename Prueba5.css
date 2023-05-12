@@ -2,6 +2,13 @@
 
 
 
+/*============================================================== NAV WARP ==============================================================*/
+
+div.wrap>div:nth-child(4) {
+    position: relative;
+    left: 50px;
+}
+
 
 /*============================================================== STATS WARP ==============================================================*/
 
@@ -25,9 +32,9 @@
 
 /* --- Header > Home / Browse / Forum (Remove) --- */
 
-.links>.link:nth-of-type(1), 
-.links>.link:nth-of-type(n+3) {Display:none}
-
+div.wrap>div:nth-child(-n+3) {
+    display: none;
+}
 
 /* --- Nav > Reviews / Submissions (Remove) --- */
 
