@@ -4,7 +4,7 @@
 
 /*============================================================== NAV WARP ==============================================================*/
 
-div.wrap>a:nth-child(1) {
+/*div.wrap>a:nth-child(1) {
     position: relative;
     left: 000px;
     top: 319px;
@@ -13,7 +13,7 @@ div.wrap>div:nth-child(4) {
     position: relative;
     left: 1000px;
     top: 319px;
-}
+}*/
 
 /*============================================================== STATS WARP ==============================================================*/
 
@@ -38,7 +38,7 @@ div.wrap>div:nth-child(4) {
 /* --- Header > Home / Browse / Forum (Remove) --- */
 
 div#nav.nav-unscoped.transparent {
-    margin: -80px;
+    Display: none;
 }
 
 div.wrap>div:nth-child(2), div.wrap>div:nth-child(3) {
