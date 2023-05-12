@@ -14,6 +14,13 @@
         right: 150px
 }
 
+/*============================================================== ACTIVITY WARP ==============================================================*/
+
+.activity-feed-wrap:nth-child(2) > h2:nth-child(1) {
+    position: relative;
+    left: 370px;
+}
+
 /*=============================================================== REMOVED ===============================================================*/
 
 /* --- Header > Home / Browse / Forum (Remove) --- */
@@ -29,6 +36,12 @@
 /* --- Stats > Score (Remove) --- */
 
 .list-stats>.stats-wrap .stat:nth-child(2n+1) {
+    Display: none;
+}
+
+/* --- Overview > Activity: All / Status / Messages / List --- */
+
+.activity-feed-wrap:nth-child(2) > h2:nth-child(1) > div:nth-child(1) {
     Display: none;
 }
 
