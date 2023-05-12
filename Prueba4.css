@@ -19,3 +19,13 @@
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(n+6) { 
     Display: none;}
+
+/* --- Overview > Favorite: Staff (Limit) --- */
+
+.content.container > div > div:nth-child(1) > div:nth-child(7) > div > a:nth-child(n+6) { 
+    Display: none;}
+
+/* --- Overview > Favorite: Studio (Limit) --- */
+
+.content.container > div > div:nth-child(1) > div:nth-child(8) > div > a:nth-child(n+6) { 
+    Display: none;}
