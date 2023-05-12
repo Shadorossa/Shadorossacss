@@ -3,7 +3,34 @@
 
 
 
+/*============================================================== STATS WARP ==============================================================*/
+
+.content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(n+1) {
+    position: relative ;
+    margin-right: 170px;
+}
+
+.content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(2) {
+        right: 170px
+}
+
 /*=============================================================== REMOVED ===============================================================*/
+
+/* --- Header > Home / Browse / Forum (Remove) --- */
+
+.links>.link:nth-of-type(1), 
+.links>.link:nth-of-type(n+3) {Display:none}
+
+
+/* --- Nav > Reviews / Submissions (Remove) --- */
+
+.nav .link:nth-of-type(n+7) {Display:none}
+
+/* --- Stats > Score (Remove) --- */
+
+.list-stats>.stats-wrap .stat:nth-child(2n+1) {
+    Display: none;
+}
 
 /* --- Overview > Favorite: Anime (Limit) --- */
 
