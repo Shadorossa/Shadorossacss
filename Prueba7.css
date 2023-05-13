@@ -4,16 +4,19 @@
 
 /*============================================================== NAV WARP ==============================================================*/
 
-/*div.wrap>a:nth-child(1) {
+div.nav.nav-unscoped.transparent {
+    
+}
+
+div.wrap>a:nth-child(1) {
     position: relative;
-    left: 000px;
-    top: 319px;
+    /*top: 319px;*/
 }
 div.wrap>div:nth-child(4) {
     position: relative;
     left: 1000px;
-    top: 319px;
-}*/
+    /*top: 90px;*/
+}
 
 /*============================================================== STATS WARP ==============================================================*/
 
@@ -37,13 +40,9 @@ div.wrap>div:nth-child(4) {
 
 /* --- Header > Home / Browse / Forum (Remove) --- */
 
-div#nav.nav-unscoped.transparent {
-    Display: none;
-}
-
-div.wrap>div:nth-child(2), div.wrap>div:nth-child(3) {
+/*div.wrap>div:nth-child(2), div.wrap>div:nth-child(3) {
     display: none;
-}
+}*/
 
 /* --- Nav > Reviews / Submissions (Remove) --- */
 
@@ -51,37 +50,30 @@ div.wrap>div:nth-child(2), div.wrap>div:nth-child(3) {
 
 /* --- Stats > Score (Remove) --- */
 
-.list-stats>.stats-wrap .stat:nth-child(2n+1) {
-    Display: none;
-}
+.list-stats>.stats-wrap .stat:nth-child(2n+1) {Display: none}
 
 /* --- Overview > Activity: All / Status / Messages / List --- */
 
-.activity-feed-wrap:nth-child(2) > h2:nth-child(1) > div:nth-child(1) {
-    Display: none;
-}
+.activity-feed-wrap:nth-child(2) > h2:nth-child(1) > div:nth-child(1) {Display: none}
+
+div.time > span:nth-child(1) {Display: none}
 
 /* --- Overview > Favorite: Anime (Limit) --- */
 
-.content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(n+6) { 
-    Display: none;}
+.content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(n+6) { Display: none}
 
 /* --- Overview > Favorite: Manga (Limit) --- */
 
-.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(n+6) { 
-    Display: none;}
+.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(n+6) { Display: none}
 
 /* --- Overview > Favorite: Character (Limit) --- */
 
-.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(n+6) { 
-    Display: none;}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(n+6) { Display: none}
 
 /* --- Overview > Favorite: Staff (Limit) --- */
 
-.content.container > div > div:nth-child(1) > div:nth-child(7) > div > a:nth-child(n+6) { 
-    Display: none;}
+.content.container > div > div:nth-child(1) > div:nth-child(7) > div > a:nth-child(n+6) { Display: none}
 
 /* --- Overview > Favorite: Studio (Limit) --- */
 
-.content.container > div > div:nth-child(1) > div:nth-child(8) > div > a:nth-child(n+6) { 
-    Display: none;}
+.content.container > div > div:nth-child(1) > div:nth-child(8) > div > a:nth-child(n+6) { Display: none}
