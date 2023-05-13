@@ -36,6 +36,11 @@ div.wrap>div:nth-child(4) {
     left: 370px;
 }
 
+/* - Profile pic position fix -*/
+.avatar.router-link-exact-active.router-link-active {
+    background-position: unset;
+}
+
 /*=============================================================== REMOVED ===============================================================*/
 
 /* --- Header > Home / Browse / Forum (Remove) --- */
