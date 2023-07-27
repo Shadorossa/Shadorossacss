@@ -77,10 +77,6 @@
     content: "\f0c0";
 }
 
-.header-wrap .nav-wrap .link:nth-child(7) {
-    display: none;
-}
-
-.header-wrap .nav-wrap .link:nth-child(8) {
+.header-wrap .nav-wrap .link:nth-child(7), .header-wrap .nav-wrap .link:nth-child(8) {
     display: none;
 }
