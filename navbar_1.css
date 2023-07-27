@@ -77,14 +77,10 @@
     content: "\f0c0";
 }
 
-.header-wrap .nav-wrap .link:nth-child(7):before {
-    font-family: "FontAwesome";
-    font-size: 15px;
-    content: "\f15c";
+.header-wrap .nav-wrap .link:nth-child(7) {
+    display: none;
 }
 
-.header-wrap .nav-wrap .link:nth-child(8):before {
-    font-family: "FontAwesome";
-    font-size: 15px;
-    content: "\f005";
+.header-wrap .nav-wrap .link:nth-child(8) {
+    display: none;
 }
