@@ -1,106 +1,24 @@
 /* Shadorossa.css - Shadorossa v1.0 */
 
 
-/*============================================================== CSS > ROOT ==============================================================*/
+/*============================================================== CSS > ROOT | ASSETS ==============================================================*/
+
+@import url(https://mentor404.github.io/anilist-css/main.css);
 
 
 
-/*============================================================== CSS > ASSETS ==============================================================*/
-
-@import url(https://mentor404.github.io/anilist-css/files/background.css);
-@import url(https://mentor404.github.io/anilist-css/files/banner-remove.css);
-@import url(https://mentor404.github.io/anilist-css/files/navbar.css);
-@import url(https://mentor404.github.io/anilist-css/files/color-theme.css);
-@import url(https://mentor404.github.io/anilist-css/files/font.css);
-@import url(https://mentor404.github.io/anilist-css/files/stats2.css);
-@import url(https://mentor404.github.io/anilist-css/files/favourites.css);
-@import url(https://mentor404.github.io/anilist-css/files/feed.css);
-@import url(https://mentor404.github.io/anilist-css/files/footer.css);
-@import url(https://mentor404.github.io/anilist-css/files/top-nav.css);
-/*@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/Background_1.css");
-@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/banner-remove_1.css");
-@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/navbar_1.css");
-@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/color-theme_1.css");
-@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/font_1.css");
-@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/stats2_1.css");
-@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/favourites_1.css");
-@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/feed_1.css");
-@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/footer_1.css");
-@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/top-nav_1.css");
-@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/OverviewLimits1.css");*/
-
-/*============================================================== NAV WARP ==============================================================*/
-
-
-
-/* This part belongs to the code of "Mentor404": https://github.com/Mentor404/anilist-css/tree/main. Thanks you! */
-.header-wrap .nav-wrap .link {
-    font-size: 0rem;
-    transition: all 0.5s cubic-bezier(.39,.58,.57,1);
-}
-
-.header-wrap .nav-wrap .link:hover{
-    scale: 1.2;
-}
-
-.header-wrap .nav-wrap .link:nth-child(1):before {
-    font-family: "FontAwesome";
-    font-size: 15px;
-    content: "\f015";
-}
-
-.header-wrap .nav-wrap .link:nth-child(2):before {
-    font-family: "FontAwesome";
-    font-size: 15px;
-    content: "\f26c";
-}
-
-.header-wrap .nav-wrap .link:nth-child(3):before {
-    font-family: "FontAwesome";
-    font-size: 15px;
-    content: "\f02d";
-}
-
-.header-wrap .nav-wrap .link:nth-child(4):before {
-    font-family: "FontAwesome";
-    font-size: 15px;
-    content: "\f004";
-}
-
-.header-wrap .nav-wrap .link:nth-child(5):before {
-    font-family: "FontAwesome";
-    font-size: 15px;
-    content: "\f080";
-}
-
-.header-wrap .nav-wrap .link:nth-child(6):before {
-    font-family: "FontAwesome";
-    font-size: 15px;
-    content: "\f0c0";
-}
 
 /*============================================================== STATS WARP ==============================================================*/
 
-.content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(n+1) {
+/*.content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(n+1) {
     position: relative;
     margin-right: 150px;
 }
 
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(2) {
         right: 150px
-}
+}*/
 
-/*============================================================== ACTIVITY WARP ==============================================================*/
-
-.activity-feed-wrap:nth-child(2) > h2:nth-child(1) {
-    position: relative;
-    left: 370px;
-}
-
-/* - Profile pic position fix -*/
-.avatar.router-link-exact-active.router-link-active {
-    background-position: unset;
-}
 
 /*=============================================================== Overview > Characters ===============================================================*/
 
@@ -109,42 +27,27 @@
 
 /*=============================================================== REMOVED ===============================================================*/
 
-/* --- Header > Home / Browse / Forum (Remove) --- */
+/* --- Header > Home / Browse / Forum (Remove) --- 
 
 div.wrap>div.links>a {
     display: none;
-}
+}*/
 
 /* --- Nav > Reviews / Submissions (Remove) --- */
-
 .nav .link:nth-of-type(n+7) {Display:none}
 
-/* --- Stats > Score (Remove) --- */
-
-.list-stats>.stats-wrap .stat:nth-child(2n+1) {Display: none}
-
-/* --- Overview > Activity: All / Status / Messages / List --- */
-
-.activity-feed-wrap:nth-child(2) > h2:nth-child(1) > div:nth-child(1) {Display: none}
-
-div.time > span:nth-child(1) {Display: none}
 
 /* --- Overview > Favorite: Anime (Limit) --- */
-
 .content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(n+6) { Display: none}
 
 /* --- Overview > Favorite: Manga (Limit) --- */
-
 .content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(n+6) { Display: none}
 
 /* --- Overview > Favorite: Character (Limit) --- */
-
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(n+6) { Display: none}
 
 /* --- Overview > Favorite: Staff (Limit) --- */
-
 .content.container > div > div:nth-child(1) > div:nth-child(7) > div > a:nth-child(n+6) { Display: none}
 
 /* --- Overview > Favorite: Studio (Limit) --- */
-
 .content.container > div > div:nth-child(1) > div:nth-child(8) > div > a:nth-child(n+6) { Display: none}
