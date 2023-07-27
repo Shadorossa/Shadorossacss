@@ -1,39 +1,44 @@
-/* Shadorossa.css - Shadorossa v1.0 */
+/* Shadorossa.css - Shadorossa v0.02 */
 
 
 /*============================================================== CSS > ROOT | ASSETS ==============================================================*/
 
-@import url(https://mentor404.github.io/anilist-css/main.css);
+@import url(https://mentor404.github.io/anilist-css/files/background.css); @import url(https://mentor404.github.io/anilist-css/files/banner-remove.css); @import url(https://mentor404.github.io/anilist-css/files/navbar.css); @import url(https://mentor404.github.io/anilist-css/files/color-theme.css);
+@import url(https://mentor404.github.io/anilist-css/files/font.css); @import url(https://mentor404.github.io/anilist-css/files/stats2.css); @import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/favourites_v0.02.css"); @import url(https://mentor404.github.io/anilist-css/files/feed.css);
+@import url(https://mentor404.github.io/anilist-css/files/footer.css); @import url(https://mentor404.github.io/anilist-css/files/top-nav.css); @Import url("https://cdn.jsdelivr.net/gh/Shadorossa/CSS5R/P5Font.css");
 
+:root {
 
-
-
-/*============================================================== STATS WARP ==============================================================*/
-
-/*.content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(n+1) {
-    position: relative;
-    margin-right: 150px;
+    /* - Favorite Anime - */
+    
+    /* - Favorite Manga - */
+    
+    /* - Favorite Characters | 1st: Image | 2nd: Gif | 3rd: | - */
+    --Gin-img: url(https://i.imgur.com/HRuIQHE.png); --Rein-img: url(https://i.imgur.com/SytE4tG.png); --Baku-img: url(https://i.imgur.com/SytE4tG.png); --Joe-img: url(https://i.imgur.com/SytE4tG.png); --Yatora-img: url(https://i.imgur.com/SytE4tG.png); 
 }
 
-.content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(2) {
-        right: 150px
-}*/
+/*=============================================================== Overview ===============================================================*/
 
+/* --- Genres --- */
+div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > div > div.genres {display: none;} 
+div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > h2 {font-size: 0;}
+div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before{position: relative; font-family: Persona5; top: -3px; font-size: 12px; content: "Progress across the media / 20%"}
+.percentage-bar > div:nth-child(n+3) {display: none;}
+.el-tooltip__popper.is-dark {display: none;}
+.percentage-bar > div:nth-child(1) {min-width: 20% !important; background: rgb(129 51 94) !important;}
+.percentage-bar > div:nth-child(2) {min-width: 100% !important; background: rgb(70 70 70) !important;}
 
-/*=============================================================== Overview > Characters ===============================================================*/
+/*=============================================================== Overview > Favorites ===============================================================*/
 
-.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) { background-image: var(--gintoki-image)}
+/* --- Modifications --- */
+.favourite:hover {transform: scale(1.075); border: 2px solid rgb(var(--color-foreground));}
 
+/* --- Characters --- */
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {background-image: var(--Gin-img) !important;}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(3) {background-image: var(--Baku-img) !important;}
 
 /*=============================================================== REMOVED ===============================================================*/
-
-/* --- Header > Home / Browse / Forum (Remove) --- 
-
-div.wrap>div.links>a {
-    display: none;
-}*/
-
-/* --- Nav > Reviews / Submissions (Remove) --- */
+/* --- Nav > Reviews / Submissions (Remove) ---*/
 .nav .link:nth-of-type(n+7) {Display:none}
 
 
