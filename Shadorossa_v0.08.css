@@ -17,7 +17,7 @@
     --Gin-img: url(https://i.imgur.com/HRuIQHE.png); --Rein-img: url(https://i.imgur.com/SytE4tG.png); --Baku-img: url(https://i.imgur.com/SytE4tG.png); --Joe-img: url(https://i.imgur.com/SytE4tG.png); --Yatora-img: url(https://i.imgur.com/SytE4tG.png); 
 
     /* - Social media - */
-    --Joker-backloggd: url(https://files.catbox.moe/n9i48l.png); --Jax-IMDB: url(https://files.catbox.moe/hgp9n4.png); --Baku-fav: url(https://files.catbox.moe/0i4hps.png);
+    --Joker-backloggd: url(https://files.catbox.moe/n9i48l.png); --Jax-IMDB: url(https://files.catbox.moe/hgp9n4.png); --Baku-fav: url(https://files.catbox.moe/kzzi56.png);
 }
 
 /*=============================================================== Overview ===============================================================*/
@@ -42,47 +42,46 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 
 /*=============================================================== Overview > Social media ===============================================================*/
 /* --- Backloggd --- */
-.about p:nth-child(3) > a:nth-child(6)::after {
+.about p:nth-child(6) > a:nth-child(1)::after {
     content: "";
     background-image: var(--Joker-backloggd);
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    height: 420px;
+    width: 350px;
     display: block;
     position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 20;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
+    z-index: 5;
+    filter: drop-shadow(15px -10px 4px rgb(0 0 0 / 50%));
 }
-
 /* --- IMDB --- */
-.about p:nth-child(3) > a:nth-child(9)::after {
+.about p:nth-child(6) > a:nth-child(2)::after {
     content: "";
     background-image: var(--Jax-IMDB);
     background-size: cover;
+    height: 400px;
     width: 350px;
-    height: 350px;
     display: block;
     position: fixed;
     bottom: 0;
     right: 0;
-    z-index: 20;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
+    z-index: 5
+    filter: drop-shadow(15px -10px 4px rgb(0 0 0 / 50%));
 }
 
-/* --- Baku --- */
-div.page-content > div > div.content.container > div > div:nth-child(3) > div.favourites-wrap.characters > a:nth-child(3)::before {
+/* --- Baku --- */ 
+div.lists > div:nth-child(2) > div > div.list-entries > div > div.title > a:nth-child(2)::before {
     content: "";
     background-image: var(--Baku-fav);
     background-size: cover;
-    width: 350px;
-    height: 350px;
+    width: 340px;
+    height: 450px;
     display: block;
     position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 20;
+    z-index: 5;
     filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
