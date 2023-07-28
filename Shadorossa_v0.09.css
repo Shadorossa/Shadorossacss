@@ -5,7 +5,7 @@
 
 @import url(https://mentor404.github.io/anilist-css/files/background.css); @import url(https://mentor404.github.io/anilist-css/files/banner-remove.css); @import url(https://mentor404.github.io/anilist-css/files/navbar.css); @import url(https://mentor404.github.io/anilist-css/files/color-theme.css);
 @import url(https://mentor404.github.io/anilist-css/files/font.css); @import url(https://mentor404.github.io/anilist-css/files/stats2.css); @import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/favourites_v0.02.css"); @import url(https://mentor404.github.io/anilist-css/files/feed.css);
-@import url(https://mentor404.github.io/anilist-css/files/footer.css); @import url(https://mentor404.github.io/anilist-css/files/top-nav.css); @Import url("https://cdn.jsdelivr.net/gh/Shadorossa/CSS5R/P5Font.css");
+@import url(https://mentor404.github.io/anilist-css/files/footer.css); @import url(https://mentor404.github.io/anilist-css/files/top-nav.css); @Import url("https://cdn.jsdelivr.net/gh/Shadorossa/CSS5R/P5Font.css"); @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"); 
 
 :root {
 
@@ -83,6 +83,21 @@ div.lists > div:nth-child(2) > div > div.list-entries > div > div.title > a:nth-
     left: 0;
     z-index: 5;
     filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
+}
+
+/*=============================================================== ANIMATIONS ===============================================================*/
+
+.about p:nth-child(6) > a:nth-child(1)::after {
+    animation: fadeInBottomLeft;
+    animation-duration: 3s;
+}
+.about p:nth-child(6) > a:nth-child(2)::after {
+    animation: fadeInBottomRight;
+    animation-duration: 3s;
+}
+div.lists > div:nth-child(2) > div > div.list-entries > div > div.title > a:nth-child(2)::before {
+    animation: zoomInDown;
+    animation-duration: 3s;
 }
 
 /*=============================================================== REMOVED ===============================================================*/
