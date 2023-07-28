@@ -10,7 +10,7 @@
 :root {
 
     /* - Favorite Anime - */
-    --P4-img: url(https://files.catbox.moe/poxvmv.png); --P5-img: url(https://files.catbox.moe/1yq8rx.png); --AA-img: url(https://files.catbox.moe/urum3t.png);
+    --P4-img: url(https://m.media-amazon.com/images/M/MV5BMGE2NDgwNTAtZGYyZS00ZmVjLTg2YTYtMjRhMTZmZjM5YTNkXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg); --P5-img: url(https://c4.wallpaperflare.com/wallpaper/733/32/20/persona-5-persona-5-royal-hd-wallpaper-preview.jpg); --AA-img: url(https://www.latercera.com/resizer/F-3skXsYP0UYihEGDnHfjg6gctM=/arc-anglerfish-arc2-prod-copesa/public/EQUX23JAPJH6LMY2C5XTWZWGJU.jpg);
     
     /* - Favorite Manga - */
     
@@ -99,6 +99,15 @@ div.lists > div:nth-child(2) > div > div.list-entries > div > div.title > a:nth-
     z-index: 5;
     filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
+
+/*=============================================================== Favorites ===============================================================*/
+/* --- Anime --- */
+div.page-content > div > div.content.container > div > div:nth-child(1) > h2 {font-size: 0px} div.page-content > div > div.content.container > div > div:nth-child(1) > h2:before {font-size: 14px; content: "Anime & Video games";}
+div.page-content > div > div.content.container > div > div:nth-child(2) > h2 {font-size: 0px} div.page-content > div > div.content.container > div > div:nth-child(2) > h2:before {font-size: 14px; content: "Manga & novels"; }
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(2) {background-image: var(--P4-img) !important;}
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(7) {background-image: var(--P5-img) !important;}
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(8) {background-image: var(--AA-img) !important;}
+
 
 /*=============================================================== ANIMATIONS ===============================================================*/
 
