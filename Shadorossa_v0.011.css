@@ -30,10 +30,10 @@
 /* --- Genres --- */
 div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > div > div.genres {display: none;} 
 div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > h2 {font-size: 0;}
-div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before{position: relative; font-family: Persona5; top: -3px; font-size: 12px; content: "Progress across the media / 20%"}
+div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before{position: relative; font-family: Persona5; top: -3px; font-size: 12px; content: "Bucket list progress / 3.6%"}
 .percentage-bar > div:nth-child(n+3) {display: none;}
 .el-tooltip__popper.is-dark {display: none;}
-.percentage-bar > div:nth-child(1) {min-width: 20% !important; background: rgb(129 51 94) !important;}
+.percentage-bar > div:nth-child(1) {min-width: 3.5% !important; background: rgb(129 51 94) !important;}
 .percentage-bar > div:nth-child(2) {min-width: 100% !important; background: rgb(70 70 70) !important;}
 
 /* --- Favorites --- */
