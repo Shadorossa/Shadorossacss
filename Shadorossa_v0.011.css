@@ -21,6 +21,10 @@
     --Joker-backloggd: url(https://files.catbox.moe/n9i48l.png); --Jax-IMDB: url(https://files.catbox.moe/hgp9n4.png); --Baku-fav: url(https://files.catbox.moe/kzzi56.png);
 }
 
+/*=============================================================== NAV BAR & HEADER ===============================================================*/
+
+.logo{content: url("https://files.catbox.moe/0cpyxf.png");opacity: 0.5;transition: scale 1s, opacity .5s;}
+
 /*=============================================================== Overview ===============================================================*/
 
 /* --- Genres --- */
