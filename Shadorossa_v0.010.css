@@ -10,11 +10,12 @@
 :root {
 
     /* - Favorite Anime - */
+    --P4-img: url(https://files.catbox.moe/poxvmv.png); --P5-img: url(https://files.catbox.moe/1yq8rx.png); --AA-img: url(https://files.catbox.moe/urum3t.png);
     
     /* - Favorite Manga - */
     
     /* - Favorite Characters | 1st: Image | 2nd: Gif | 3rd: | - */
-    --Gin-img: url(https://i.imgur.com/HRuIQHE.png); --Rein-img: url(https://i.imgur.com/SytE4tG.png); --Baku-img: url(https://i.imgur.com/SytE4tG.png); --Joe-img: url(https://i.imgur.com/SytE4tG.png); --Yatora-img: url(https://i.imgur.com/SytE4tG.png); 
+    --Gin-img: url(https://i.imgur.com/HRuIQHE.png); --Rein-img: url(https://i.imgur.com/KR1r4XY.png); --Baku-img: url(https://i.imgur.com/SytE4tG.png); --Joe-img: url(https://i.imgur.com/SytE4tG.png); --Yatora-img: url(https://i.imgur.com/SytE4tG.png); 
 
     /* - Social media - */
     --Joker-backloggd: url(https://files.catbox.moe/n9i48l.png); --Jax-IMDB: url(https://files.catbox.moe/hgp9n4.png); --Baku-fav: url(https://files.catbox.moe/kzzi56.png);
@@ -31,13 +32,23 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 .percentage-bar > div:nth-child(1) {min-width: 20% !important; background: rgb(129 51 94) !important;}
 .percentage-bar > div:nth-child(2) {min-width: 100% !important; background: rgb(70 70 70) !important;}
 
+/* --- Favorites --- */
+div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(4) > h2 {font-size: 0px}
+div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(4) > h2::before {font-size: 10px; content:"Anime & games";}
+div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(5) > h2 {font-size: 0px}
+div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(5) > h2::before {font-size: 10px; content:"Manga & novels";}
+
 /*=============================================================== Overview > Favorites ===============================================================*/
 
 /* --- Modifications --- */
 .favourite:hover {transform: scale(1.075); border: 2px solid rgb(var(--color-foreground));}
 
+/* --- Anime --- */
+.content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(2) {background-image: var(--P4-img) !important;}
+
 /* --- Characters --- */
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {background-image: var(--Gin-img) !important;}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(2) {background-image: var(--Rein-img) !important;}
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(3) {background-image: var(--Baku-img) !important;}
 
 /*=============================================================== Overview > Social media ===============================================================*/
