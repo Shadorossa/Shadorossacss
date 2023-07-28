@@ -56,3 +56,47 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 
 /* --- Overview > Favorite: Studio (Limit) --- */
 .content.container > div > div:nth-child(1) > div:nth-child(8) > div > a:nth-child(n+6) { Display: none}
+
+/* :root {
+    --saiko-stray-guild: url(https://i.imgur.com/M3LznFH.png);
+    --saiko-techno-circle: url(https://i.imgur.com/fbravZD.png);
+/*===============================================
+    Added Features
+===============================================*/ 
+
+/*Sinon Discord Server*/
+.about p:nth-child(3) > a:nth-child(6)::after {
+    content: "";
+    background-image: var(--saiko-stray-guild);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
+}
+
+.about p:nth-child(3) > a:nth-child(5):before {
+    content: "";
+    background-image: var(--saiko-techno-circle);
+    background-size: contain;
+    width: 222px;
+    height: 239px;
+    display: block;
+    position: fixed;
+    bottom: -50px;
+    left: -40px;
+    z-index: 20;
+    animation: spin 30s infinite linear;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
