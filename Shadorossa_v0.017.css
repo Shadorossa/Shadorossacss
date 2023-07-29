@@ -122,7 +122,7 @@ div.page-content > div > div.content.container > div > div:nth-child(3) > h2 {po
     animation: fadeInBottomRight;
     animation-duration: 3s;
 }
-div.lists > div:nth-child(2) > div > div.list-entries > div > div.title > a:nth-child(2)::after {
+div.lists > div:nth-child(2) > div > div.list-entries > div > div.title > a:nth-child(1)::after {
     animation: zoomInDown;
     animation-duration: 2s;
 }
