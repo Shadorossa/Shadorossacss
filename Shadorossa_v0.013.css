@@ -108,6 +108,8 @@ div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(2) {
 div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(7) {background-image: var(--P5-img) !important;}
 div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(8) {background-image: var(--AA-img) !important;}
 
+/* --- Characters --- */
+div.page-content > div > div.content.container > div > div:nth-child(3) > h2:after {font-size: 10px;position:relative; top: 163px; right:1250px; content:"disordered"}
 
 /*=============================================================== ANIMATIONS ===============================================================*/
 
