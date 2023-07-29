@@ -44,6 +44,36 @@
     opacity: 0.5;
     transition: scale 1s, opacity .5s;
 }
+/*=============================================================== Base code (Eliminar esto es borrar la mitad del CSS) ===============================================================*/
+
+.about p:nth-child(6) > a:nth-child(n+1)::after {
+    content: "";
+    background-size: cover;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    z-index: 0;
+    filter: drop-shadow(15px -10px 4px rgb(0 0 0 / 50%));
+}
+
+div.favourites > div:nth-child(n+1) > div.favourites-wrap.anime > a:nth-child(n+1):hover:before {
+    content: "";
+    position: fixed;
+    display: block;
+    background-size: cover;
+    z-index: -2;
+    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
+}
+
+div.favourites > div:nth-child(n+2) > div.favourites-wrap.manga > a:nth-child(n+1):hover:before {
+    content: "";
+    position: fixed;
+    display: block;
+    background-size: cover;
+    z-index: -1;
+    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
+}
+
 
 /*=============================================================== Overview ===============================================================*/
 /* --- Genres --- */
@@ -127,31 +157,18 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 /*=============================================================== Overview > Social media ===============================================================*/
 /* --- Backloggd --- */
 .about p:nth-child(6) > a:nth-child(1)::after {
-    content: "";
     background-image: var(--Joker-backloggd);
-    background-size: cover;
-    height: 420px;
-    width: 350px;
-    display: block;
-    position: fixed;
-    bottom: 0;
+    height: 400px;
+    width: 370px;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(15px -10px 4px rgb(0 0 0 / 50%));
 }
 
 /* --- IMDB --- */
 .about p:nth-child(6) > a:nth-child(2)::after {
-    content: "";
     background-image: var(--Jax-IMDB);
-    background-size: cover;
     height: 400px;
     width: 350px;
-    display: block;
-    position: fixed;
-    bottom: 0;
     right: 0;
-    z-index: 5 filter: drop-shadow(15px -10px 4px rgb(0 0 0 / 50%));
 }
 
 /* --- Baku --- 
@@ -215,284 +232,164 @@ div.page-content > div > div.content.container > div > div:nth-child(3) > h2 {
 }
 
 /* --- Anime & manga characters hover --- */
-div.page-content > div > div.content.container > div > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(1):hover:before {
-    content: "";
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(1):hover:before {
     background-image: var(--Gin-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(2):hover:before {
-    content: "";
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(2):hover:before {
     background-image: var(--P4-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(3):hover:before {
-    content: "";
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(3):hover:before {
     background-image: var(--Logh-fav);
-    background-size: cover;
     width: 280px;
     height: 650px;
-    display: block;
-    position: fixed;
     bottom: 0;
     right: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(4):hover:before {
-    content: "";
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(4):hover:before {
     background-image: var(--Joe-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(5):hover:before {
-    content: "";
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(5):hover:before {
     background-image: var(--Mons-fav);
-    background-size: cover;
     width: 340px;
     height: 450px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(6):hover:before {
-    content: "";
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(6):hover:before {
     background-image: var(--Nana-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(7):hover:before {
-    content: "";
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(7):hover:before {
     background-image: var(--P5-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(8):hover:before {
-    content: "";
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(8):hover:before {
     background-image: var(--AA-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(9):hover:before {
-    content: "";
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(9):hover:before {
     background-image: var(--FB-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(10):hover:before {
-    content: "";
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(10):hover:before {
     background-image: var(--Mono-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(1):hover:before {
-    content: "";
+div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(1):hover:before {
     background-image: var(--Baku-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(2):hover:before {
-    content: "";
+div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(2):hover:before {
     background-image: var(--TdoH-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(3):hover:before {
-    content: "";
+div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(3):hover:before {
     background-image: var(--AiB-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(4):hover:before {
-    content: "";
+div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(4):hover:before {
     background-image: var(--Taka-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(5):hover:before {
-    content: "";
+div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(5):hover:before {
     background-image: var(--inno-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(6):hover:before {
-    content: "";
+div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(6):hover:before {
     background-image: var(--Fata-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(7):hover:before {
-    content: "";
+div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(7):hover:before {
     background-image: var(--BP-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(8):hover:before {
-    content: "";
+div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(8):hover:before {
     background-image: var(--20th-fav);
-    background-size: cover;
     width: 440px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(9):hover:before {
-    content: "";
+div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(9):hover:before {
     background-image: var(--PH-fav);
-    background-size: cover;
     width: 440px;
     height: 490px;
-    display: block;
-    position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(10):hover:before {
-    content: "";
+div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(10):hover:before {
     background-image: var(--Bleach-fav);
-    background-size: cover;
     width: 740px;
     height: 550px;
-    display: block;
-    position: fixed;
     bottom: 0;
     right: 0;
-    z-index: 5;
-    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
 /*=============================================================== ANIMATIONS ===============================================================*/
