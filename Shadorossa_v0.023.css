@@ -187,19 +187,6 @@ div.page-content > div > div.content.container > div > div:nth-child(2) > h2:bef
     font-size: 14px;
     content: "Manga & novels";
 }
-
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(2) {
-    background-image: var(--P4-img) !important;
-}
-
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(7) {
-    background-image: var(--P5-img) !important;
-}
-
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(8) {
-    background-image: var(--AA-img) !important;
-}
-
 /* --- Characters --- */
 div.page-content > div > div.content.container > div > div:nth-child(3) > h2:before {
     font-size: 10px;
