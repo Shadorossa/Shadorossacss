@@ -2,10 +2,8 @@
 /*============================================================== CSS > ROOT | ASSETS ==============================================================*/
 @import url(https://mentor404.github.io/anilist-css/files/background.css); @import url(https://mentor404.github.io/anilist-css/files/banner-remove.css); @import url(https://mentor404.github.io/anilist-css/files/navbar.css); @import url(https://mentor404.github.io/anilist-css/files/color-theme.css); @import url(https://mentor404.github.io/anilist-css/files/font.css); @import url(https://mentor404.github.io/anilist-css/files/stats2.css); @import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/favourites_v0.02.css"); @import url(https://mentor404.github.io/anilist-css/files/feed.css); @import url(https://mentor404.github.io/anilist-css/files/footer.css); @import url(https://mentor404.github.io/anilist-css/files/top-nav.css); @Import url("https://cdn.jsdelivr.net/gh/Shadorossa/CSS5R/P5Font.css"); @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"); :root {
     /* - Favorite Anime - */
-    --P4-img: url(https://m.media-amazon.com/images/M/MV5BMGE2NDgwNTAtZGYyZS00ZmVjLTg2YTYtMjRhMTZmZjM5YTNkXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg);
-    --P5-img: url(https://c4.wallpaperflare.com/wallpaper/733/32/20/persona-5-persona-5-royal-hd-wallpaper-preview.jpg);
-    --AA-img: url(https://www.latercera.com/resizer/F-3skXsYP0UYihEGDnHfjg6gctM=/arc-anglerfish-arc2-prod-copesa/public/EQUX23JAPJH6LMY2C5XTWZWGJU.jpg);
     /* - Favorite Manga - */
+    --Uso-img: url(https://files.catbox.moe/9s8cn2.png);
     /* - Favorite Characters | 1st: Image | 2nd: Gif | 3rd: | - */
     --Gin-img: url(https://i.imgur.com/HRuIQHE.png);
     --Rein-img: url(https://i.imgur.com/KR1r4XY.png);
@@ -17,10 +15,13 @@
     --Jax-IMDB: url(https://files.catbox.moe/hgp9n4.png);
     /* - Sprites - */
     --Gin-fav: url(https://files.catbox.moe/mymm35.png);
+    --P4-fav: url(https://files.catbox.moe/zcftt2.png);
     --Logh-fav: url(https://files.catbox.moe/aw81im.png);
     --Joe-fav: url(https://files.catbox.moe/kzzi56.png);
     --Mons-fav: url(https://files.catbox.moe/kzzi56.png);
     --Nana-fav: url(https://files.catbox.moe/kzzi56.png);
+    --P5-fav: url(https://files.catbox.moe/kzzi56.png);
+    --AA-fav: url(https://files.catbox.moe/kzzi56.png);
     --FB-fav: url(https://files.catbox.moe/kzzi56.png);
     --Mono-fav: url(https://files.catbox.moe/kzzi56.png);
     --Baku-fav: url(https://files.catbox.moe/kzzi56.png);
@@ -133,9 +134,9 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
     border: 2px solid rgb(var(--color-foreground));
 }
 
-/* --- Anime --- */
-.content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(2) {
-    background-image: var(--P4-img) !important;
+/* --- Manga --- */
+.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(1) {
+    background-image: var(--Uso-img) !important;
 }
 
 /* --- Characters --- */
@@ -175,7 +176,7 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > h2 {
 
 div.page-content > div > div.content.container > div > div:nth-child(1) > h2:before {
     font-size: 14px;
-    content: "Anime & Video games";
+    content: "Anime";
 }
 
 div.page-content > div > div.content.container > div > div:nth-child(2) > h2 {
@@ -185,6 +186,18 @@ div.page-content > div > div.content.container > div > div:nth-child(2) > h2 {
 div.page-content > div > div.content.container > div > div:nth-child(2) > h2:before {
     font-size: 14px;
     content: "Manga & novels";
+}
+
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(2) {
+    background-image: var(--P4-img) !important;
+}
+
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(7) {
+    background-image: var(--P5-img) !important;
+}
+
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(8) {
+    background-image: var(--AA-img) !important;
 }
 
 /* --- Characters --- */
@@ -201,7 +214,7 @@ div.page-content > div > div.content.container > div > div:nth-child(3) > h2 {
     right: 56px
 }
 
-/* --- Anime & manga hover --- */
+/* --- Anime & manga characters hover --- */
 div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(1):hover:before {
     background-image: var(--Gin-fav);
     width: 440px;
@@ -211,7 +224,7 @@ div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(1):h
 }
 
 div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(2):hover:before {
-    background-image: var(--Logh-fav);
+    background-image: var(--Joe-fav);
     width: 280px;
     height: 650px;
     bottom: 0;
@@ -219,7 +232,7 @@ div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(2):h
 }
 
 div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(3):hover:before {
-    background-image: var(--Joe-fav);
+    background-image: var(--Mons-fav);
     width: 440px;
     height: 550px;
     bottom: 0;
@@ -228,22 +241,22 @@ div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(3):h
 
 div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(4):hover:before {
     background-image: var(--Mons-fav);
-    width: 340px;
-    height: 450px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(5):hover:before {
-    background-image: var(--Nana-fav);
     width: 440px;
     height: 550px;
     bottom: 0;
     left: 0;
 }
 
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(6):hover:before {
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(5):hover:before {
     background-image: var(--Nana-fav);
+    width: 340px;
+    height: 450px;
+    bottom: 0;
+    left: 0;
+}
+
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(6):hover:before {
+    background-image: var(--XX-fav);
     width: 440px;
     height: 550px;
     bottom: 0;
