@@ -15,13 +15,10 @@
     --Jax-IMDB: url(https://files.catbox.moe/hgp9n4.png);
     /* - Sprites - */
     --Gin-fav: url(https://files.catbox.moe/mymm35.png);
-    --P4-fav: url(https://files.catbox.moe/zcftt2.png);
     --Logh-fav: url(https://files.catbox.moe/aw81im.png);
     --Joe-fav: url(https://files.catbox.moe/kzzi56.png);
     --Mons-fav: url(https://files.catbox.moe/kzzi56.png);
     --Nana-fav: url(https://files.catbox.moe/kzzi56.png);
-    --P5-fav: url(https://files.catbox.moe/kzzi56.png);
-    --AA-fav: url(https://files.catbox.moe/kzzi56.png);
     --FB-fav: url(https://files.catbox.moe/kzzi56.png);
     --Mono-fav: url(https://files.catbox.moe/kzzi56.png);
     --Baku-fav: url(https://files.catbox.moe/kzzi56.png);
@@ -145,11 +142,11 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 }
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(2) {
-    background-image: var(--Rein-img) !important;
+    background-image: var(--Baku-img) !important;
 }
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(3) {
-    background-image: var(--Baku-img) !important;
+    background-image: var(--Rein-img) !important;
 }
 
 /*=============================================================== Overview > Social media ===============================================================*/
