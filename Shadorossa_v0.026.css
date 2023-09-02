@@ -5,6 +5,7 @@
     /* - Favorite Manga - */
     --Uso-img: url(https://files.catbox.moe/9s8cn2.png);
     /* - Favorite Characters | 1st: Image | 2nd: Gif | 3rd: | - */
+    --Kiru-img: url(https://i.imgur.com/pn294Nw.png);
     --Gin-img: url(https://i.imgur.com/HRuIQHE.png);
     --Rein-img: url(https://i.imgur.com/KR1r4XY.png);
     --Baku-img: url(https://i.imgur.com/SytE4tG.png);
@@ -137,15 +138,16 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 }
 
 /* --- Characters --- */
-.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(2) {
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {
+    background-image: var(--Kiru-img) !important;
+}
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(3) {
     background-image: var(--Gin-img) !important;
 }
-
-.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(2) {
     background-image: var(--Baku-img) !important;
 }
-
-.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(3) {
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(4) {
     background-image: var(--Rein-img) !important;
 }
 
