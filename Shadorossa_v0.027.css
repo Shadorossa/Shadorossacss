@@ -217,7 +217,7 @@ div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(2):h
     right: 0;
 }
 
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(3):hover:before {
+/*div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(3):hover:before {
     background-image: var(--Joe-fav);
     width: 440px;
     height: 550px;
@@ -241,7 +241,7 @@ div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(5):h
     left: 0;
 }
 
-/*div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(6):hover:before {
+div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(6):hover:before {
     background-image: var(--XX-fav);
     width: 440px;
     height: 550px;
@@ -289,7 +289,7 @@ div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(1):h
     left: 0;
 }
 
-div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(2):hover:before {
+/*div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(2):hover:before {
     background-image: var(--TdoH-fav);
     width: 440px;
     height: 550px;
@@ -359,7 +359,7 @@ div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(10):
     height: 550px;
     bottom: 0;
     right: 0;
-}
+}*/
 
 /*=============================================================== ANIMATIONS ===============================================================*/
 .about p:nth-child(6) > a:nth-child(1)::after {
@@ -394,26 +394,26 @@ div.page-content > div > div.content.container > div > div:nth-child(n+2) > div.
 }
 
 /* --- Overview > Favorite: Anime (Limit) --- */
-.content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(n+6) {
+.content.container > div > div:nth-child(1) > div:nth-child(3) > div > a:nth-child(n+6) {
     Display: none
 }
 
 /* --- Overview > Favorite: Manga (Limit) --- */
-.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(n+6) {
+.content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(n+6) {
     Display: none
 }
 
 /* --- Overview > Favorite: Character (Limit) --- */
-.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(n+6) {
+.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(n+6) {
     Display: none
 }
 
 /* --- Overview > Favorite: Staff (Limit) --- */
-.content.container > div > div:nth-child(1) > div:nth-child(7) > div > a:nth-child(n+6) {
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(n+6) {
     Display: none
 }
 
 /* --- Overview > Favorite: Studio (Limit) --- */
-.content.container > div > div:nth-child(1) > div:nth-child(8) > div > a:nth-child(n+6) {
+.content.container > div > div:nth-child(1) > div:nth-child(7) > div > a:nth-child(n+6) {
     Display: none
 }
