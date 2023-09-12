@@ -72,8 +72,8 @@ div.favourites > div:nth-child(n+2) > div.favourites-wrap.manga > a:nth-child(n+
 
 
 /*=============================================================== Overview ===============================================================*/
-/* --- Genres --- */
-div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > div > div.genres {
+/* --- Genres ---*/
+/*div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > div > div.genres {
     display: none;
 }
 
@@ -87,7 +87,7 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
     top: -3px;
     font-size: 12px;
     content: "Bucket list progress / 3.6%"
-}
+}*/
 
 .percentage-bar > div:nth-child(n+3) {
     display: none;
@@ -108,20 +108,20 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 }
 
 /* --- Favorites --- */
+div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > h2 {
+    font-size: 0px
+}
+
+div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > h2::before {
+    font-size: 10px;
+    content: "Anime & games";
+}
+
 div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(4) > h2 {
     font-size: 0px
 }
 
 div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(4) > h2::before {
-    font-size: 10px;
-    content: "Anime & games";
-}
-
-div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(5) > h2 {
-    font-size: 0px
-}
-
-div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(5) > h2::before {
     font-size: 10px;
     content: "Manga & novels";
 }
