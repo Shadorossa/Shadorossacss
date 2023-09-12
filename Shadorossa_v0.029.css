@@ -133,21 +133,21 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 }
 
 /* --- Manga --- */
-.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(1) {
+.content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(1) {
     background-image: var(--Uso-img) !important;
 }
 
 /* --- Characters --- */
-.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {
+.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(1) {
     background-image: var(--Kiru-img) !important;
 }
-.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(3) {
+.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(3) {
     background-image: var(--Gin-img) !important;
 }
-.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(2) {
+.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(2) {
     background-image: var(--Baku-img) !important;
 }
-.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(4) {
+.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(4) {
     background-image: var(--Rein-img) !important;
 }
 
