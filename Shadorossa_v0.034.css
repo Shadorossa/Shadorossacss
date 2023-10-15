@@ -188,7 +188,7 @@ div.page-content > div > div.content.container > div > div:nth-child(2) > h2:bef
     content: "Manga & novels";
 }
 .favourites-wrap {
-    grid-gap: 20px;
+    grid-gap: 20px !important;
 }
 
 /* --- Characters --- */
