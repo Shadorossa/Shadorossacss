@@ -187,19 +187,12 @@ div.page-content > div > div.content.container > div > div:nth-child(2) > h2:bef
     font-size: 14px;
     content: "Manga & novels";
 }
-/* --- Characters --- */
-div.page-content > div > div.content.container > div > div:nth-child(3) > h2:before {
-    font-size: 10px;
-    position: relative;
-    top: 163px;
-    left: 70px;
-    content: "disordered"
+.favourites-wrap {
+    grid-gap: 20px;
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(3) > h2 {
-    position: relative;
-    right: 56px
-}
+/* --- Characters --- */
+
 
 /* --- Anime & manga characters hover --- */
 div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(1):hover:before {
