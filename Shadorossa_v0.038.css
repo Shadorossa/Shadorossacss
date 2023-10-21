@@ -244,7 +244,11 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div.fa
 }
 
 /* --- Characters --- */
-
+div.page-content > div > div.content.container > div > div:nth-child(3) > div.favourites-wrap.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 /* --- Anime & manga characters hover --- */
 div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(1):hover:before {
