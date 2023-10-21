@@ -2,38 +2,65 @@
 /*============================================================== CSS > ROOT | ASSETS ==============================================================*/
 @import url(https://mentor404.github.io/anilist-css/files/background.css); @import url(https://mentor404.github.io/anilist-css/files/banner-remove.css); @import url(https://mentor404.github.io/anilist-css/files/navbar.css); @import url(https://mentor404.github.io/anilist-css/files/color-theme.css); @import url(https://mentor404.github.io/anilist-css/files/font.css); @import url(https://mentor404.github.io/anilist-css/files/stats2.css); @import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/favourites_v0.02.css"); @import url(https://mentor404.github.io/anilist-css/files/feed.css); @import url(https://mentor404.github.io/anilist-css/files/footer.css); @import url(https://mentor404.github.io/anilist-css/files/top-nav.css); @Import url("https://cdn.jsdelivr.net/gh/Shadorossa/CSS5R/P5Font.css"); @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"); 
 :root {
-    --background: url("https://i.imgur.com/MtOC5XD.png");
+    --background: url(
+    "https://i.imgur.com/MtOC5XD.png");
     /* - Favorite Anime - */
     /* - Favorite Manga - */
-    --Uso-img: url(https://files.catbox.moe/9s8cn2.png);
+    --Uso-img: url(
+    https://files.catbox.moe/9s8cn2.png);
     /* - Favorite Characters | 1st: Image | 2nd: Gif | 3rd: | - */
-    --Kiru-img: url(https://i.imgur.com/pn294Nw.png);
-    --Gin-img: url(https://i.imgur.com/HRuIQHE.png);
-    --Rein-img: url(https://i.imgur.com/KR1r4XY.png);
-    --Baku-img: url(https://i.imgur.com/SytE4tG.png);
-    --Joe-img: url(https://i.imgur.com/SytE4tG.png);
-    --Yatora-img: url(https://i.imgur.com/SytE4tG.png);
+    --Kiru-img: url(
+    https://i.imgur.com/pn294Nw.png);
+    --Gin-img: url(
+    https://i.imgur.com/HRuIQHE.png);
+    --Rein-img: url(
+    https://i.imgur.com/KR1r4XY.png);
+    --Baku-img: url(
+    https://i.imgur.com/SytE4tG.png);
+    --Joe-img: url(
+    https://i.imgur.com/SytE4tG.png);
+    --Yatora-img: url(
+    https://i.imgur.com/SytE4tG.png);
     /* - Social media - */
-    --Joker-backloggd: url(https://files.catbox.moe/n9i48l.png);
-    --Jax-IMDB: url(https://files.catbox.moe/hgp9n4.png);
+    --Joker-backloggd: url(
+    https://files.catbox.moe/n9i48l.png);
+    --Jax-IMDB: url(
+    https://files.catbox.moe/hgp9n4.png);
     /* - Sprites - */
-    --Gin-fav: url(https://files.catbox.moe/mymm35.png);
-    --Logh-fav: url(https://files.catbox.moe/aw81im.png);
-    --Joe-fav: url(https://files.catbox.moe/kzzi56.png);
-    --Mons-fav: url(https://files.catbox.moe/kzzi56.png);
-    --Nana-fav: url(https://files.catbox.moe/kzzi56.png);
-    --FB-fav: url(https://files.catbox.moe/kzzi56.png);
-    --Mono-fav: url(https://files.catbox.moe/kzzi56.png);
-    --Baku-fav: url(https://files.catbox.moe/kzzi56.png);
-    --TDoH-fav: url(https://files.catbox.moe/kzzi56.png);
-    --AiB-fav: url(https://files.catbox.moe/kzzi56.png);
-    --Taka-fav: url(https://files.catbox.moe/kzzi56.png);
-    --Inno-fav: url(https://files.catbox.moe/kzzi56.png);
-    --Fata-fav: url(https://files.catbox.moe/kzzi56.png);
-    --BP-fav: url(https://files.catbox.moe/kzzi56.png);
-    --20th-fav: url(https://files.catbox.moe/kzzi56.png);
-    --PH-fav: url(https://files.catbox.moe/vq8abq.png);
-    --Bleach-fav: url(https://files.catbox.moe/kwkmmx.png);
+    --Gin-fav: url(
+    https://files.catbox.moe/mymm35.png);
+    --Logh-fav: url(
+    https://files.catbox.moe/aw81im.png);
+    --Joe-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --Mons-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --Nana-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --FB-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --Mono-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --Baku-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --TDoH-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --AiB-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --Taka-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --Inno-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --Fata-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --BP-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --20th-fav: url(
+    https://files.catbox.moe/kzzi56.png);
+    --PH-fav: url(
+    https://files.catbox.moe/vq8abq.png);
+    --Bleach-fav: url(
+    https://files.catbox.moe/kwkmmx.png);
 }
 
 /*=============================================================== NAV BAR & HEADER ===============================================================*/
@@ -176,7 +203,7 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > h2 {
 
 div.page-content > div > div.content.container > div > div:nth-child(1) > h2:before {
     font-size: 14px;
-    content: "Anime";
+    content: "Anime & Novels";
 }
 
 div.page-content > div > div.content.container > div > div:nth-child(2) > h2 {
@@ -188,6 +215,7 @@ div.page-content > div > div.content.container > div > div:nth-child(2) > h2:bef
     content: "Manga & novels";
 }
 .favourites-wrap {
+    display: flex;
     grid-gap: 20px !important;
 }
 
