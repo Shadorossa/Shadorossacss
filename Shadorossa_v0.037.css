@@ -195,6 +195,27 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
     width: 350px;
     right: 0;
 }
+/*=============================================================== Anime & Manga Lists ===============================================================*/
+
+.filters .hohStatsTrigger,
+.filter-group {
+  background-color: rgb(35 1 10 / 70%) !important;
+  border-radius: 4px;
+  box-shadow: 0 2px 20px rgba(49, 54, 68, 0.9);
+  padding: 10px 8px;
+}
+
+
+.filter-group .active,
+.filter-group a.router-link-active,
+.el-select-dropdown__item:hover,
+.el-select-dropdown__item:hover,
+.el-dropdown-menu__item:focus,
+.el-dropdown-menu__item:not(.is-disabled):hover {
+  background-color: rgb(118 53 13) !important;
+  color: #fff !important;
+}
+
 /*=============================================================== Favorites ===============================================================*/
 /* --- Anime --- */
 div.page-content > div > div.content.container > div > div:nth-child(1) > h2 {
@@ -242,70 +263,6 @@ div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(2):h
     right: 0;
 }
 
-/*div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(3):hover:before {
-    background-image: var(--Joe-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(4):hover:before {
-    background-image: var(--Mons-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(5):hover:before {
-    background-image: var(--Nana-fav);
-    width: 340px;
-    height: 450px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(6):hover:before {
-    background-image: var(--XX-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(7):hover:before {
-    background-image: var(--XX-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(8):hover:before {
-    background-image: var(--XX-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(9):hover:before {
-    background-image: var(--XX-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(1) > div.favourites-wrap.anime > a:nth-child(10):hover:before {
-    background-image: var(--XX-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}*/
-
 div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(1):hover:before {
     background-image: var(--Baku-fav);
     width: 440px;
@@ -313,78 +270,6 @@ div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(1):h
     bottom: 0;
     left: 0;
 }
-
-/*div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(2):hover:before {
-    background-image: var(--TdoH-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(3):hover:before {
-    background-image: var(--AiB-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(4):hover:before {
-    background-image: var(--Taka-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(5):hover:before {
-    background-image: var(--inno-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(6):hover:before {
-    background-image: var(--Fata-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(7):hover:before {
-    background-image: var(--BP-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(8):hover:before {
-    background-image: var(--PH-fav);
-    width: 440px;
-    height: 550px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(9):hover:before {
-    background-image: var(--20th-fav);
-    width: 440px;
-    height: 490px;
-    bottom: 0;
-    left: 0;
-}
-
-div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(10):hover:before {
-    background-image: var(--Bleach-fav);
-    width: 740px;
-    height: 550px;
-    bottom: 0;
-    right: 0;
-}*/
 
 /*=============================================================== ANIMATIONS ===============================================================*/
 .about p:nth-child(6) > a:nth-child(1)::after {
