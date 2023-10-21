@@ -215,8 +215,11 @@ div.page-content > div > div.content.container > div > div:nth-child(2) > h2:bef
     content: "Manga & novels";
 }
 .favourites-wrap {
+    grid-gap: 15px !important;
+}
+
+div.page-content > div > div.content.container > div > div:nth-child(1) > div.favourites-wrap.anime, div.page-content > div > div.content.container > div > div:nth-child(2) > div.favourites-wrap.manga {
     display: flex;
-    grid-gap: 20px !important;
 }
 
 /* --- Characters --- */
