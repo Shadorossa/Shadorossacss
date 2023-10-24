@@ -1,66 +1,41 @@
 /* Shadorossa.css - Shadorossa v0.02 */
 /*============================================================== CSS > ROOT | ASSETS ==============================================================*/
-@import url(https://mentor404.github.io/anilist-css/files/background.css); @import url(https://mentor404.github.io/anilist-css/files/banner-remove.css); @import url(https://mentor404.github.io/anilist-css/files/navbar.css); @import url(https://mentor404.github.io/anilist-css/files/color-theme.css); @import url(https://mentor404.github.io/anilist-css/files/font.css); @import url(https://mentor404.github.io/anilist-css/files/stats2.css); @import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/favourites_v0.02.css"); @import url(https://mentor404.github.io/anilist-css/files/feed.css); @import url(https://mentor404.github.io/anilist-css/files/footer.css); @import url(https://mentor404.github.io/anilist-css/files/top-nav.css); @Import url("https://cdn.jsdelivr.net/gh/Shadorossa/CSS5R/P5Font.css"); @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"); 
+@import url(https://mentor404.github.io/anilist-css/files/background.css);
+@import url(https://mentor404.github.io/anilist-css/files/banner-remove.css);
+@import url(https://mentor404.github.io/anilist-css/files/navbar.css);
+@import url(https://mentor404.github.io/anilist-css/files/color-theme.css);
+@import url(https://mentor404.github.io/anilist-css/files/font.css);
+@import url(https://mentor404.github.io/anilist-css/files/stats2.css);
+@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/favourites_v0.02.css");
+@import url(https://mentor404.github.io/anilist-css/files/feed.css);
+@import url(https://mentor404.github.io/anilist-css/files/footer.css);
+@import url(https://mentor404.github.io/anilist-css/files/top-nav.css);
+@Import url("https://cdn.jsdelivr.net/gh/Shadorossa/CSS5R/P5Font.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"); 
 :root {
     --background: url(
     "https://i.imgur.com/MtOC5XD.png");
     /* - Favorite Anime - */
+    
     /* - Favorite Manga - */
     --Uso-img: url(
     https://files.catbox.moe/9s8cn2.png);
+    
     /* - Favorite Characters | 1st: Image | 2nd: Gif | 3rd: | - */
-    --Kiru-img: url(
-    https://i.imgur.com/pn294Nw.png);
-    --Gin-img: url(
-    https://i.imgur.com/HRuIQHE.png);
-    --Rein-img: url(
-    https://i.imgur.com/KR1r4XY.png);
-    --Baku-img: url(
-    https://i.imgur.com/SytE4tG.png);
-    --Joe-img: url(
-    https://i.imgur.com/SytE4tG.png);
-    --Yatora-img: url(
-    https://i.imgur.com/SytE4tG.png);
+    --Kiru-img: url(https://i.imgur.com/pn294Nw.png);
+    --Gin-img: url(https://i.imgur.com/HRuIQHE.png);
+    --Rein-img: url(https://i.imgur.com/KR1r4XY.png);
+    --Baku-img: url(https://i.imgur.com/SytE4tG.png);
+    --Joe-img: url(https://i.imgur.com/SytE4tG.png);
+    --Yatora-img: url(https://i.imgur.com/SytE4tG.png);
+    
     /* - Social media - */
-    --Joker-backloggd: url(
-    https://files.catbox.moe/n9i48l.png);
-    --Jax-IMDB: url(
-    https://files.catbox.moe/hgp9n4.png);
+    --Joker-backloggd: url(https://files.catbox.moe/n9i48l.png);
+    --Jax-IMDB: url(https://files.catbox.moe/hgp9n4.png);
+
     /* - Sprites - */
-    --Gin-fav: url(
-    https://files.catbox.moe/mymm35.png);
-    --Logh-fav: url(
-    https://files.catbox.moe/aw81im.png);
-    --Joe-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --Mons-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --Nana-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --FB-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --Mono-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --Baku-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --TDoH-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --AiB-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --Taka-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --Inno-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --Fata-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --BP-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --20th-fav: url(
-    https://files.catbox.moe/kzzi56.png);
-    --PH-fav: url(
-    https://files.catbox.moe/vq8abq.png);
-    --Bleach-fav: url(
-    https://files.catbox.moe/kwkmmx.png);
+    --Gin-fav: url(https://files.catbox.moe/mymm35.png);
+    --Baku-fav: url(https://files.catbox.moe/kzzi56.png);
 }
 
 /*=============================================================== NAV BAR & HEADER ===============================================================*/
@@ -97,6 +72,38 @@ div.favourites > div:nth-child(n+2) > div.favourites-wrap.manga > a:nth-child(n+
     z-index: -1;
     filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
+h2.section-header,
+h3.section-name,
+.stats-wrap .heading h3,
+.stats-wrap .header .title,
+.user-social .user-comments .title {
+  background-color: rgb(35 1 10 / 70%) !important;
+  border-radius: 4px;
+  padding: 6px 8px 5px !important;
+  width: fit-content;
+}
+
+.filters .hohStatsTrigger,
+.filter-group, .highlights {
+  background-color: rgb(35 1 10 / 70%) !important;
+  border-radius: 4px;
+  box-shadow: 0 2px 20px rgba(49, 54, 68, 0.9);
+  padding: 10px 8px;
+}
+
+.filter-group .active,
+.filter-group a.router-link-active,
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover,
+.el-dropdown-menu__item:focus,
+.el-dropdown-menu__item:not(.is-disabled):hover {
+  background-color: rgb(118 53 13) !important;
+  color: #fff !important;
+}
+
+.header-wrap .nav-wrap .link:hover{
+    border-radius: 10px;
+}
 
 
 /*=============================================================== Overview ===============================================================*/
@@ -105,15 +112,16 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
     display: none;
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > h2 {
+div:nth-child(3) > h2 {
     font-size: 0;
 }
 
-div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before {
+div:nth-child(3) > h2:before {
     position: relative;
     font-family: Persona5;
-    top: -3px;
-    font-size: 12px;
+    left: 3px;
+    top: 1px;
+    font-size: 13px;
     content: "Bucket list progress / 3.6%"
 }
 
@@ -126,7 +134,7 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 }
 
 .percentage-bar > div:nth-child(1) {
-    min-width: 3.5% !important;
+    min-width: 3.6% !important;
     background: rgb(129 51 94) !important;
 }
 
@@ -197,38 +205,15 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 }
 /*=============================================================== Anime & Manga Lists ===============================================================*/
 
-.filters .hohStatsTrigger,
-.filter-group {
-  background-color: rgb(35 1 10 / 70%) !important;
-  border-radius: 4px;
-  box-shadow: 0 2px 20px rgba(49, 54, 68, 0.9);
-  padding: 10px 8px;
-}
-
-
-.filter-group .active,
-.filter-group a.router-link-active,
-.el-select-dropdown__item:hover,
-.el-select-dropdown__item:hover,
-.el-dropdown-menu__item:focus,
-.el-dropdown-menu__item:not(.is-disabled):hover {
-  background-color: rgb(118 53 13) !important;
-  color: #fff !important;
-}
-
 /*=============================================================== Favorites ===============================================================*/
 /* --- Anime --- */
-div.page-content > div > div.content.container > div > div:nth-child(1) > h2 {
+div.page-content > div > div.content.container > div > div:nth-child(1) > h2, div.page-content > div > div.content.container > div > div:nth-child(2) > h2 {
     font-size: 0px
 }
 
 div.page-content > div > div.content.container > div > div:nth-child(1) > h2:before {
     font-size: 14px;
     content: "Anime & Novels";
-}
-
-div.page-content > div > div.content.container > div > div:nth-child(2) > h2 {
-    font-size: 0px
 }
 
 div.page-content > div > div.content.container > div > div:nth-child(2) > h2:before {
@@ -276,6 +261,7 @@ div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(1):h
 }
 
 /*=============================================================== ANIMATIONS ===============================================================*/
+/* --- Home --- */
 .about p:nth-child(6) > a:nth-child(1)::after {
     animation: fadeInBottomLeft;
     animation-duration: 3s;
@@ -286,11 +272,13 @@ div.favourites > div:nth-child(2) > div.favourites-wrap.manga > a:nth-child(1):h
     animation-duration: 3s;
 }
 
-div.lists > div:nth-child(2) > div > div.list-entries > div > div.title > a:nth-child(1)::after {
-    animation: zoomInDown;
-    animation-duration: 2s;
+/* --- Anime/Manga List --- */
+div.lists > div:nth-child(1n+2) {
+    animation: backInLeft;
+    animation-duration: 1.1s;
 }
 
+/* --- Favorite --- */
 div.page-content > div > div.content.container > div > div:nth-child(n+1) > div.favourites-wrap.anime > a:nth-child(n+1):hover:before {
     animation: fadeInBottomLeft;
     animation-duration: 0.8s;
@@ -301,33 +289,17 @@ div.page-content > div > div.content.container > div > div:nth-child(n+2) > div.
     animation-duration: 0.8s;
 }
 
-/*=============================================================== REMOVED ===============================================================*/
+/*=============================================================== REMOVED & LIMITED ===============================================================*/
 /* --- Nav > Reviews / Submissions (Remove) ---*/
 .nav .link:nth-of-type(n+7) {
     Display: none
 }
 
-/* --- Overview > Favorite: Anime (Limit) --- */
-.content.container > div > div:nth-child(1) > div:nth-child(3) > div > a:nth-child(n+6) {
-    Display: none
-}
-
-/* --- Overview > Favorite: Manga (Limit) --- */
-.content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(n+6) {
-    Display: none
-}
-
-/* --- Overview > Favorite: Character (Limit) --- */
-.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(n+6) {
-    Display: none
-}
-
-/* --- Overview > Favorite: Staff (Limit) --- */
-.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(n+6) {
-    Display: none
-}
-
-/* --- Overview > Favorite: Studio (Limit) --- */
+/* --- Overview > Favorite (Limit) --- */
+.content.container > div > div:nth-child(1) > div:nth-child(3) > div > a:nth-child(n+6),
+.content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(n+6),
+.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(n+6),
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(n+6),
 .content.container > div > div:nth-child(1) > div:nth-child(7) > div > a:nth-child(n+6) {
     Display: none
 }
