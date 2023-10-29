@@ -13,13 +13,11 @@
 @Import url("https://cdn.jsdelivr.net/gh/Shadorossa/CSS5R/P5Font.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"); 
 :root {
-    --background: url(
-    "https://i.imgur.com/MtOC5XD.png");
+    --background: url("https://i.imgur.com/MtOC5XD.png");
     /* - Favorite Anime - */
     
     /* - Favorite Manga - */
-    --Uso-img: url(
-    https://files.catbox.moe/9s8cn2.png);
+    --Uso-img: url(https://files.catbox.moe/9s8cn2.png);
     
     /* - Favorite Characters | 1st: Image | 2nd: Gif | 3rd: | - */
     --Kiru-img: url(https://i.imgur.com/pn294Nw.png);
@@ -30,8 +28,8 @@
     --Yatora-img: url(https://i.imgur.com/SytE4tG.png);
     
     /* - Social media - */
-    --Joker-backloggd: url(https://files.catbox.moe/n9i48l.png);
-    --Jax-IMDB: url(https://files.catbox.moe/hgp9n4.png);
+    --backloggd: url(https://files.catbox.moe/8za60j.png);
+    --IMDB: url(https://files.catbox.moe/hgp9n4.png);
 
     /* - Sprites - */
     --Gin-fav: url(https://files.catbox.moe/mymm35.png);
@@ -72,7 +70,6 @@ div.favourites > div:nth-child(n+2) > div.favourites-wrap.manga > a:nth-child(n+
     z-index: -1;
     filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
-h2.section-header,
 h3.section-name,
 .stats-wrap .heading h3,
 .stats-wrap .header .title,
@@ -144,17 +141,13 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 }
 
 /* --- Favorites --- */
-div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(4) > h2 {
+div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(4) > h2, div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(5) > h2 {
     font-size: 0px
 }
 
 div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(4) > h2::before {
     font-size: 10px;
     content: "Anime & novels";
-}
-
-div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(5) > h2 {
-    font-size: 0px
 }
 
 div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(5) > h2::before {
@@ -169,7 +162,7 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 }
 
 /* --- Manga --- */
-.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(1) {
+.favourites-wrap.manga > a:nth-child(1) {
     background-image: var(--Uso-img) !important;
 }
 
@@ -190,15 +183,15 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 /*=============================================================== Overview > Social media ===============================================================*/
 /* --- Backloggd --- */
 .about p:nth-child(6) > a:nth-child(1)::after {
-    background-image: var(--Joker-backloggd);
+    background-image: var(--backloggd);
     height: 400px;
-    width: 370px;
+    width: 595px;
     left: 0;
 }
 
 /* --- IMDB --- */
 .about p:nth-child(6) > a:nth-child(2)::after {
-    background-image: var(--Jax-IMDB);
+    background-image: var(--IMDB);
     height: 400px;
     width: 350px;
     right: 0;
