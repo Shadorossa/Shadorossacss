@@ -116,8 +116,7 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before {
     position: relative;
     font-family: Persona5;
-    left: 3px;
-    top: 1px;
+    top: -2px;
     font-size: 13px;
     content: "Bucket list progress / 3.6%"
 }
