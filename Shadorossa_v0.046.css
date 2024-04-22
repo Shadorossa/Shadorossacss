@@ -18,6 +18,7 @@
     
     /* - Favorite Manga - */
     --Uso-img: url(https://files.catbox.moe/9s8cn2.png);
+    --Gint-img: url(https://comicvine.gamespot.com/a/uploads/scale_small/6/67663/6737607-76.jpg);
     
     /* - Favorite Characters | 1st: Image | 2nd: Gif | 3rd: | - */
     --Kiru-img: url(https://i.imgur.com/pn294Nw.png);
@@ -161,23 +162,14 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 }
 
 /* --- Manga --- */
-.favourites-wrap.manga > a:nth-child(1) {
-    background-image: var(--Uso-img) !important;
-}
+.favourites-wrap.manga > a:nth-child(2) {background-image: var(--Uso-img) !important;}
+.favourites-wrap.manga > a:nth-child(1) {background-image: var(--Gint-img) !important;}
 
 /* --- Characters --- */
-.favourites-wrap.characters > a:nth-child(1) {
-    background-image: var(--Kiru-img) !important;
-}
-.favourites-wrap.characters > a:nth-child(3) {
-    background-image: var(--Gin-img) !important;
-}
-.favourites-wrap.characters > a:nth-child(4) {
-    background-image: var(--Baku-img) !important;
-}
-.favourites-wrap.characters > a:nth-child(5) {
-    background-image: var(--Rein-img) !important;
-}
+.favourites-wrap.characters > a:nth-child(1) {background-image: var(--Kiru-img) !important;}
+.favourites-wrap.characters > a:nth-child(2) {background-image: var(--Gin-img) !important;}
+.favourites-wrap.characters > a:nth-child(4) {background-image: var(--Baku-img) !important;}
+.favourites-wrap.characters > a:nth-child(5) {background-image: var(--Rein-img) !important;}
 
 /*=============================================================== Overview > Social media ===============================================================*/
 /* --- Backloggd --- */
