@@ -190,6 +190,10 @@ div.page-content > div > div.content.container > div > div:nth-child(1) > div:nt
 /*=============================================================== Anime & Manga Lists ===============================================================*/
 
 /*=============================================================== Favorites ===============================================================*/
+div.page-content > div > div.content.container {
+    max-width: 1920px;
+}
+
 /* --- Anime --- */
 div.page-content > div > div.content.container > div > div:nth-child(1) > h2, div.page-content > div > div.content.container > div > div:nth-child(2) > h2 {
     font-size: 0px
