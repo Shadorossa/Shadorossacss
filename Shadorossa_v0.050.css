@@ -1,15 +1,15 @@
 /* Shadorossa.css - Shadorossa v0.02 */
 /*============================================================== CSS > ROOT | ASSETS ==============================================================*/
-@import url(https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/Background_1.css);
-@import url(https://mentor404.github.io/anilist-css/files/banner-remove.css);
-@import url(https://mentor404.github.io/anilist-css/files/navbar.css);
-@import url(https://mentor404.github.io/anilist-css/files/color-theme.css);
-@import url(https://mentor404.github.io/anilist-css/files/font.css);
-@import url(https://mentor404.github.io/anilist-css/files/stats2.css);
+@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/Background_1.css");
+@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/banner-remove_1.css");
+@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/navbar_1.css");
+@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/color-theme_1.css");
+@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/font_1.css");
+@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/stats2_1.css");
 @import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/favourites_v0.02.css");
-@import url(https://mentor404.github.io/anilist-css/files/feed.css);
-@import url(https://mentor404.github.io/anilist-css/files/footer.css);
-@import url(https://mentor404.github.io/anilist-css/files/top-nav.css);
+@import url("https://github.com/Shadorossa/Shadorossacss/blob/main/feed_1.css");
+@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/footer_1.css");
+@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/top-nav_1.css");
 @Import url("https://cdn.jsdelivr.net/gh/Shadorossa/CSS5R/P5Font.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"); 
 :root {
