@@ -1,0 +1,23 @@
+/* --- Overview > Configuration --- */
+.favourites.preview .favourites-wrap[data-v-ddf96a3c] {
+    display: flex;
+    margin-bottom: -10px;
+    padding: 20px;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+/* --- Overview > Favorite: Anime (Limit) --- */
+.content.container > div > div:nth-child(1) > div:nth-child(4) > div > a:nth-child(n+11) { Display: none}
+
+/* --- Overview > Favorite: Manga (Limit) --- */
+.content.container > div > div:nth-child(1) > div:nth-child(5) > div > a:nth-child(n+11) { Display: none}
+
+/* --- Overview > Favorite: Character (Limit) --- */
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(n+11) { Display: none}
+
+/* --- Overview > Favorite: Staff (Limit) --- */
+.content.container > div > div:nth-child(1) > div:nth-child(7) > div > a:nth-child(n+11) { Display: none}
+
+/* --- Overview > Favorite: Studio (Limit) --- */
+.content.container > div > div:nth-child(1) > div:nth-child(8) > div > a:nth-child(n+11) { Display: none}
