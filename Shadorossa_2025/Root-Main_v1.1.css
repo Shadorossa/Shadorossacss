@@ -1,1 +1,7 @@
+/* Shadorossa.css - Shadorossa v1 */
+/*============================================================== CSS > ROOT | ASSETS ==============================================================*/
 #NAV-BAR @import url(https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/Shadorossa_2025/navbar_1.css)
+
+:root {
+    --background: url("https://i.imgur.com/MtOC5XD.png");
+}
