@@ -2,7 +2,7 @@
 /*============================================================== CSS > ROOT | ASSETS ==============================================================*/
 @import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/Shadorossa2025/Navegation-Top_v1.0.css"); /* #TOP-NAV*/
 @import url("https://github.com/Shadorossa/Shadorossacss/blob/main/Shadorossa2025/Navegation-Bar_v1.0.css"); /* #NAV-BAR*/
-@import url("https://github.com/Shadorossa/Shadorossacss/blob/main/Shadorossa2025/Characters-Animanga-Protraits_v1.0.css"); /* #NAV-BAR*/
+@import url("https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/Shadorossa2025/Characters-Animanga-Protraits_v1.0.css"); /* #NAV-BAR*/
 
 :root {
     /*--background: url("https://i.imgur.com/MtOC5XD.png");*/
