@@ -1,7 +1,7 @@
 /* Shadorossa.css - Shadorossa v1 */
 /*============================================================== CSS > ROOT | ASSETS ==============================================================*/
 @import url(https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/Shadorossa_2025/navbar_1.css); /* #NAV-BAR*/
-@import url(https://github.com/Shadorossa/Shadorossacss/blob/main/Shadorossa2025/Background_1.css); /* #BACKG*/
+@import url(https://cdn.jsdelivr.net/gh/Shadorossa/Shadorossacss@main/Shadorossa2025/Background_1.css); /* #BACKG*/
 
 :root {
     --background: url("https://i.imgur.com/MtOC5XD.png");
